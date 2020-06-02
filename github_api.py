@@ -1,4 +1,5 @@
 import time
+import json
 from datetime import datetime
 import json
 from typing import Iterable
@@ -58,6 +59,16 @@ def parse_commit(commit):
         'verified': commit.get('verification', {}).get('verified')
     }
 
+def parse_repo(repos):
+    count = 1
+
+    for item in repos['items']:
+        print('full_name: ', item['full_name'])
+        print('created at: ', item['created_at'])
+        print('size: ', item['size'])
+        print('forks count: ', item['forks_count'])
+        print()
+        count = count + 1
 
 class GitHubAPIToken(object):
     api_url = "https://api.github.com/"
@@ -703,7 +714,6 @@ class GitHubAPI(object):
             email = userInfo['email']
             return email
 
-
     # this function get repo by specifying constraints
     def get_repo(self, language, created_date_from, created_date_to):
         """ Return timeline on an issue or a pull request
@@ -711,8 +721,9 @@ class GitHubAPI(object):
                 :param issue_id: int, either an issue or a Pull Request id
                 """
         url = 'search/repositories?q=language%3A\"'+language+'\"+created%3A'+created_date_from+'..'+created_date_to
-        print(url)
+        #print(url)
         repos = self.request(url, paginate=False)
+        parse_repo(repos)
         return repos
 
 
