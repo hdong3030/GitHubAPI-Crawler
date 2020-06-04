@@ -12,6 +12,7 @@ import os.path
 import init
 from fetch_raw_diff import *
 from util import localfile
+import csv
 
 # try:
 #     import settings
@@ -59,16 +60,24 @@ def parse_commit(commit):
         'verified': commit.get('verification', {}).get('verified')
     }
 
-def parse_repo(repos):
-    count = 1
+def parse_repo(repos, authors):
+    with open('notebooks.csv', mode='a') as csv_file:
+        fieldnames = ['id', 'full name', 'created at', 'size', 'forks count']
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
-    for item in repos['items']:
-        print('full_name: ', item['full_name'])
-        print('created at: ', item['created_at'])
-        print('size: ', item['size'])
-        print('forks count: ', item['forks_count'])
-        print()
-        count = count + 1
+        for item in repos['items']:
+            writer.writerow({
+                'id' : item['id'],
+                'full name': item['full_name'],
+                'created at': item['created_at'],
+                'size': item['size'],
+                'forks count': item['forks_count']
+        })
+
+        count = 1
+        for author in authors:
+            print('author ' + str(count) + ' :' + author['login'])
+            count += 1
 
 class GitHubAPIToken(object):
     api_url = "https://api.github.com/"
@@ -723,7 +732,15 @@ class GitHubAPI(object):
         url = 'search/repositories?q=language%3A\"'+language+'\"+created%3A'+created_date_from+'..'+created_date_to
         #print(url)
         repos = self.request(url, paginate=False)
-        parse_repo(repos)
+
+        for item in repos['items']:
+            authorsUrl = item['contributors_url']      
+            
+        authorsUrl = authorsUrl.replace('https://api.github.com/', '')
+        authors = self.request(authorsUrl, paginate=False) 
+        print(authors)
+
+        parse_repo(repos, authors)
         return repos
 
 
