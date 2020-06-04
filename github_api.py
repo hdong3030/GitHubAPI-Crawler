@@ -1,5 +1,5 @@
 import time
-import json
+import urllib.request
 from datetime import datetime
 import json
 from typing import Iterable
@@ -59,16 +59,20 @@ def parse_commit(commit):
         'verified': commit.get('verification', {}).get('verified')
     }
 
-def parse_repo(repos):
-    count = 1
+def parse_repo(repos, authors):
 
     for item in repos['items']:
         print('full_name: ', item['full_name'])
         print('created at: ', item['created_at'])
         print('size: ', item['size'])
         print('forks count: ', item['forks_count'])
+
+        count = 1
+
+        for author in authors:
+            print('author ' + str(count) + ' :' + author['login'])
+            count += 1
         print()
-        count = count + 1
 
 class GitHubAPIToken(object):
     api_url = "https://api.github.com/"
@@ -722,8 +726,16 @@ class GitHubAPI(object):
                 """
         url = 'search/repositories?q=language%3A\"'+language+'\"+created%3A'+created_date_from+'..'+created_date_to
         #print(url)
-        repos = self.request(url, paginate=False)
-        parse_repo(repos)
+        repos = self.request(url, paginate=False) 
+
+        for item in repos['items']:
+            authorsUrl = item['contributors_url']      
+        #authors = self.request(authorsUrl, paginate=False) 
+        authorsUrl = authorsUrl.replace('https://api.github.com/', '')
+        authors = self.request(authorsUrl, paginate=False) 
+        print(authors)
+
+        parse_repo(repos, authors)
         return repos
 
 
