@@ -1,5 +1,5 @@
 import time
-import json
+import urllib.request
 from datetime import datetime
 import json
 from typing import Iterable
