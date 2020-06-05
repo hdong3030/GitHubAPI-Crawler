@@ -60,25 +60,6 @@ def parse_commit(commit):
         'verified': commit.get('verification', {}).get('verified')
     }
 
-def parse_repo(repos, authors):
-    with open('notebooks.csv', mode='a') as csv_file:
-        fieldnames = ['id', 'full name', 'created at', 'size', 'forks count']
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-
-        for item in repos['items']:
-            writer.writerow({
-                'id' : item['id'],
-                'full name': item['full_name'],
-                'created at': item['created_at'],
-                'size': item['size'],
-                'forks count': item['forks_count']
-        })
-
-        count = 1
-        for author in authors:
-            print('author ' + str(count) + ' :' + author['login'])
-            count += 1
-
 class GitHubAPIToken(object):
     api_url = "https://api.github.com/"
 
@@ -158,6 +139,7 @@ class GitHubAPIToken(object):
 
         if not self.ready(url):
             raise TokenNotReady
+            print('tokennotready')
         # Exact API version can be specified by Accept header:
         # "Accept": "application/vnd.github.v3+json"}
 
@@ -176,9 +158,11 @@ class GitHubAPIToken(object):
 
             if r.status_code == 403 and remaining == 0:
                 raise TokenNotReady
+                
             if r.status_code == 443:
                 print('443 error')
                 raise TokenNotReady
+
         return r
 
 
@@ -723,6 +707,34 @@ class GitHubAPI(object):
             email = userInfo['email']
             return email
 
+
+    def parse_repo(self, repos):
+        with open('notebooks.csv', mode='a') as csv_file:
+            fieldnames = ['id', 'full name', 'created at', 'size', 'forks count', 'authors']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        
+            for item in repos['items']:
+                
+                authorsUrl = item['contributors_url']
+
+                authorsUrl = authorsUrl.replace('https://api.github.com/', '')
+                authors = self.request(authorsUrl, paginate=False) 
+                
+                authorList = []
+                count = 1
+                for author in authors:
+                    authorList.append('author ' + str(count) + ': ' + author['login'])
+                    count += 1
+                writer.writerow({
+                    'id' : item['id'],
+                    'full name': item['full_name'],
+                    'created at': item['created_at'],
+                    'size': item['size'],
+                    'forks count': item['forks_count'],
+                    'authors' : authorList
+                })
+                print(authorsUrl)
+            
     # this function get repo by specifying constraints
     def get_repo(self, language, created_date_from, created_date_to):
         """ Return timeline on an issue or a pull request
@@ -730,17 +742,10 @@ class GitHubAPI(object):
                 :param issue_id: int, either an issue or a Pull Request id
                 """
         url = 'search/repositories?q=language%3A\"'+language+'\"+created%3A'+created_date_from+'..'+created_date_to
-        #print(url)
+        print(url)
+
         repos = self.request(url, paginate=False)
-
-        for item in repos['items']:
-            authorsUrl = item['contributors_url']      
-            
-        authorsUrl = authorsUrl.replace('https://api.github.com/', '')
-        authors = self.request(authorsUrl, paginate=False) 
-        print(authors)
-
-        parse_repo(repos, authors)
+        self.parse_repo(repos)
         return repos
 
 

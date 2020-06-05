@@ -21,7 +21,8 @@ if __name__ == "__main__":
     #res = api.get_repo("Jupyter%20Notebook","2008-01-01","2009-01-01")
 
     print('Getting repos...')
-    get_all_repos(date(2019, 1, 1), date.today(), 1)
+    get_all_repos(date(2019, 1, 1), date.today(), 0.5)
+    print('done!')
 
 
 

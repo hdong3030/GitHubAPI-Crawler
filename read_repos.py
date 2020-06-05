@@ -5,7 +5,7 @@ import csv
 
 def get_all_repos(startDate, endDate, timeWindow):
     with open('notebooks.csv', mode='a') as csv_file:
-        fieldnames = ['id', 'full name', 'created at', 'size', 'forks count']
+        fieldnames = ['id', 'full name', 'created at', 'size', 'forks count', 'authors']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
 
