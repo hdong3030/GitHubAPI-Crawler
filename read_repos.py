@@ -15,6 +15,7 @@ def get_all_repos(startDate, endDate, timeWindow):
     
     while startDate <= endDate:
         newStart = startDate + change
-        api.get_repo("Jupyter%20Notebook", str(startDate), str(newStart))
+        repository = api.get_repo("Jupyter%20Notebook", str(startDate), str(newStart))
+        print(repository)
         count = count + 1
         startDate = newStart

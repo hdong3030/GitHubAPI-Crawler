@@ -1,0 +1,1118 @@
+BrittonWinterrose/Drug_Review_NLP,Uploaded cleaned work from private repo to dedicated public repo.
+BrittonWinterrose/Drug_Review_NLP,Uploaded cleaned work from private working repo to dedicated public repo for this project.
+gibsonbailey/Super-Resolution-GAN,"Merge pull request #7 from gibsonbailey/cleaning-up-conditioner,,Cleaning up conditioner"
+gibsonbailey/Super-Resolution-GAN,Many small changes for cleanliness.
+gibsonbailey/Super-Resolution-GAN,Began cleaning up code used for conditioning images.
+gibsonbailey/Super-Resolution-GAN,Revert file back to 0807749fb (for cleanliness)
+gibsonbailey/Super-Resolution-GAN,"Implemented a new upscaler mixing traditional methods with DL.,,* Conv2DTranspose operations have been replaced with bilinear /,  bicubic / nearest neighbor methods to increase feature map,  dimensions to an arbitrary size; these feature maps are then,  convolved further to (hopefully) produce clean output."
+gibsonbailey/Super-Resolution-GAN,"Began cleaning up old code.,* Removed unused imports,* Removed commented-out code,* Moved definition of generator / discriminator into their own cells"
+dczerniawko/sandbox,cleaned up
+dczerniawko/sandbox,cleaned up
+dczerniawko/sandbox,cleaned up
+Zabamund/misc,cleaning up digidemo
+Zabamund/misc,clean up digidemo
+Zabamund/misc,cleans code
+Zabamund/misc,cleans up code
+Zabamund/misc,cleans up the code and function docstrings
+Zabamund/misc,cleans up notebook by adding functions
+snowkylin/tensorflow-handbook,format clean up
+snowkylin/tensorflow-handbook,format clean up
+snowkylin/tensorflow-handbook,"add javascript es6 tips, and code clean"
+snowkylin/tensorflow-handbook,clean
+snowkylin/tensorflow-handbook,clean
+snowkylin/tensorflow-handbook,clean
+snowkylin/tensorflow-handbook,clean
+createamind/DRL,clean up
+createamind/DRL,clean up
+createamind/DRL,cleaning up
+createamind/DRL,clean a little bit
+loco-3d/curves,cleaning
+loco-3d/curves,cleaning
+loco-3d/curves,[cleaning] fix compilation warnings
+loco-3d/curves,cleaning bindings
+loco-3d/curves,[python] clean init methods of SE3 not needed anymore thanks to the inheritance'
+loco-3d/curves,cleaning
+loco-3d/curves,cleaning
+loco-3d/curves,"Merge branch 'devel' into 'devel',,CMake: clean,,See merge request loco-3d/curves!3"
+loco-3d/curves,[CMake] clean
+loco-3d/curves,cleaning
+loco-3d/curves,spline coeffs in Eigen matrix + cleaning
+loco-3d/curves,cleaning
+loco-3d/curves,cleaning + added optimization
+loco-3d/curves,more cleaning
+loco-3d/curves,cleaning everything
+loco-3d/curves,Added BezierCurve handling and tests + some cleaning
+jgabry/bayes-workflow-book,"Merge pull request #6 from paul-buerkner/edits-paul,,clean up notation and fix typos"
+jgabry/bayes-workflow-book,clean up notation and fix typos
+jgabry/bayes-workflow-book,cleanup
+jupyterlab/jupyterlab-commenting,"Removed metadata service, added new save to JSON, general clean up"
+jupyterlab/jupyterlab-commenting,"Fixed some indicator based bugs, refactoring and clean up"
+jupyterlab/jupyterlab-commenting,"Added scrolling indicators into view, general clean up"
+jupyterlab/jupyterlab-commenting,"Fixed when drop-down menu is able to be shown, Comments and cleanup"
+jupyterlab/jupyterlab-commenting,Styling clean up
+jupyterlab/jupyterlab-commenting,"Added communication layer for MetadataCommentService, comments and clean"
+sytelus/regim,Little bit of scheduler cleanup
+willtscott/inquire-boulder-chatbot,"Merge pull request #18 from willtscott/week17,,Updated cleaned file"
+willtscott/inquire-boulder-chatbot,Updated cleaned file
+willtscott/inquire-boulder-chatbot,"Merge pull request #12 from willtscott/week13,,Deploying v2 of chatbot with clean data and no Dialogflow API"
+willtscott/inquire-boulder-chatbot,"Deploying v2 of chatbot with clean data and no Dialogflow API,,Transforming data processing notebooks into scripts, removed Dialogflow API from BotServer and requirements, and redeployed new version on GCP"
+willtscott/inquire-boulder-chatbot,Updated QnA separation and hand-cleaned data
+willtscott/inquire-boulder-chatbot,"Week 11 updates, cleaning up, adding testing to sandbox"
+willtscott/inquire-boulder-chatbot,"Cleaning up Project,,Removing cookiecutter files that don't seem to be useful/relevant to this project.,,Updated hand-cleaned dataset with progress through index 165,,Adding detail and rearranging some code in notebooks, scripts, to be more readable and organized."
+willtscott/inquire-boulder-chatbot,Started cleaning up flask/GCP baseline
+willtscott/inquire-boulder-chatbot,"Update faq-chatbot-sandbox.ipynb,,Added some comments and cleaned up notebook."
+willtscott/inquire-boulder-chatbot,"index.py is cleaner, supports local form requests and webhook requests, consults but doesn't use Dialogflow API,,Command '$ flask run' from /flask-diaglogflow-bot dir now works to launch the program"
+irhum/inverse-face-recognition,"added primary notebooks, clean run to be added later"
+jermwatt/control-notes,cleanup
+jermwatt/control-notes,some clean-up work
+jermwatt/control-notes,some clean-up work
+jermwatt/control-notes,some clean-up work
+bearpelican/musicautobot,Adding parallelization for data cleaning
+bearpelican/musicautobot,Directory structure cleanup and trainig 62 note_range dataset
+RuslanAgishev/motion_planning,cleaned up
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,"Quick tag cleanup, ipynb have to wait for later"
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Finish cleaning up various shell check warnings
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Update mailing list single machine example to data clean stuff
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,"Do some more work on adding TFX, clean up the kustomize example because we don't need it anymore"
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Some small cleanups for helper.sh and being in the right directory if we chain the solutions
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,"Add BSQL to extract GitHub data (#72),,* Add some bsql queries for the GH example
+,
+,* Write the BSQL and a manual extraction step for now
+,
+,* Export the data into multiple files since 1gb limit in table exports
+,
+,* bump kf v to 0.4.1
+,
+,* Move github data extraction into sub dir
+,
+,* Move to a sub-sub-dir
+,
+,* Add a first README for the data cleaning"
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Auto fetch the cleanup script (#56)
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Improve readme some more w/cleanup of serving and image building (#53)
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,"Merge pull request #43 from holdenk/fix-cleanup-and-azure-check,,Fix cleanup and azure check"
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Fix azure check and fix cleanup to delete g kf app dir even if kfctl delete isn't rocking because env wasn't gened
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Set G_KF_APP for cleanup
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,Mention cleanup script
+intro-to-ml-with-kubeflow/intro-to-ml-with-kubeflow-examples,"Start of multi cloud demo (#18),,* Add a README about the outline of the workshop. Just a starting point!
+,
+,* Start adding a bootstrap script
+,
+,* Set up a GKE cluster and azure
+,
+,* Add quick sudo hack
+,
+,* Add the command to run
+,
+,* do multi-line
+,
+,* Configure default project magics
+,
+,* Fix output
+,
+,* Fix project check apparently we have a zero exit code even for empty
+,
+,* I'm confused with the exit code.
+,
+,* Fix how we check if the project is configured, enable the Google cloud APIs in the background becuase this is slow.
+,
+,* Add a note aboiut how fast_setup is just because we are in a hurrt
+,
+,* gen ssh key if not present, set project on restart, only install az if needed, create AKS
+,
+,* Fix azure cluster name, fix zone
+,
+,* cleanup.sh
+,
+,* Make the setup script more resilent to re-execution, don't use more resources than the free azure account
+,
+,* Add the screen shots for multi cloud
+,
+,* Make cleanup and fast start executable
+,
+,* I don't know why I put delete instead of connect. Oops
+,
+,* fix ref to name
+,
+,* Start working on soltuions, deal with lcing the platform name, try and start trying to make azure optional
+,
+,* For fast testing check if SKIP_AZURE is set and skip it
+,
+,* Add the start of KF project
+,
+,* Start adding a solution.sh
+,
+,* Start talking about how to do the magic
+,
+,* Add some words about cloud shell still todo integrating the imgs
+,
+,* Create the service account
+,
+,* Check for new cluster hide the error and try and fix skip azure check
+,
+,* Add printing the namespace and setting up port forwarding
+,
+,* Doc port forward
+,
+,* Add some more screen shots
+,
+,* Add some text about stuff
+,
+,* Fix a spelling issue, take out gcloud alpha ssh since it won't play nice with web preview
+,
+,* Try putting img on same line
+,
+,* Add some more images and talk about logging in to cloud console
+,
+,* Clarify port forwarding
+,
+,* Go down the path of disabling IAM mode
+,
+,* Rewrite a little bit KF dl
+,
+,* Try and fix fast start
+,
+,* zones"
+ageron/handson-ml2,"scripts for jupyter notebooks cleanup, bin subdir on path"
+ageron/handson-ml2,"Dockerfile publishable cleanup, git diff filter testing removed"
+ACM-VIT/Dawn,Further clean up
+yanneta/ML-notebooks,cleaning last year's notebooks
+BlockScience/cadCAD-Tutorials,"Merge pull request #22 from BlockScience/cleanup-redirect,,links to main repo"
+BlockScience/cadCAD-Tutorials,cleanup and readme
+BlockScience/cadCAD-Tutorials,cleanup make2d
+BlockScience/cadCAD-Tutorials,output cells cleanup
+TrigonaMinima/HinglishNLP,Wikidata cleaning script: data segregation
+xgarcia238/8bit-VAE,Spring cleaning.
+ChrisParsonsDev/wml-pytorch-style-transfer,general cleanup and fixing iteration bug
+Azure-Samples/IoTEdgeAndMlSample,Improve DevVM scripts and other cleanup (#36)
+Azure-Samples/IoTEdgeAndMlSample,Comments and code clean up (#32)
+Younes-Charfaoui/ML-Projects,making more data cleaning
+alexdai186/HighFrequencyTradingSVMs,added clean datasets
+HumanCapitalAnalysis/microeconometrics,mall cleanup
+HumanCapitalAnalysis/microeconometrics,cleanup
+HumanCapitalAnalysis/microeconometrics,"cleaned up references ,,italics for book names"
+HumanCapitalAnalysis/microeconometrics,cleanup nuisance files
+HumanCapitalAnalysis/microeconometrics,cleanup of notebook
+HumanCapitalAnalysis/microeconometrics,"after lecture, before cleanup"
+HumanCapitalAnalysis/microeconometrics,cleanup
+maxwells-daemons/caltech-cs11-tensorflow,Small cleanup to lab 3
+lisafeets/machine-learning-workshop,Mark-up cleanse
+ltbringer/fastest,style: cleanup prints
+fg91/visualizing-cnn-feature-maps,cleaned up code
+kah-ve/MarketGAN,cleaned commits
+rapidsai/spark-examples,"clean up GCP guide
+rapidsai/spark-examples,"LICENSE and docs cleanup (#29)
+rapidsai/spark-examples,"clean up the mortgage example (#13)
+MatchLab-Imperial/keras_triplet_descriptor,"Merge pull request #5 from MatchLab-Imperial/test_clean_patches,,Test clean patches"
+MatchLab-Imperial/keras_triplet_descriptor,More info added for results and clean patches for generating CSV
+amueller/COMS4995-s19,fixes and cleanup for text slides
+amueller/COMS4995-s19,clean up feature selection notebook some
+amueller/COMS4995-s19,checkin before cleanup
+amueller/COMS4995-s19,minor fixes and cleanups for matplotlib lecture
+PacktPublishing/Learn-Python-by-Building-Data-Science-Applications,minor cleanings for chapte r20
+PacktPublishing/Learn-Python-by-Building-Data-Science-Applications, chapter 07 cleaning
+PacktPublishing/Learn-Python-by-Building-Data-Science-Applications,added steps to cleaning chapter
+kheyer/Enhance-app,Minor cleanups
+kheyer/Enhance-app,initial clean up
+traja-team/traja,"Fix tests, fix __all__ for trajectory, cleanup"
+TimotheeChauvin/NNDL-solutions,clean chap3
+altair-viz/altair_data_server,"Merge pull request #38 from jakevdp/cleanup,,MAINT: thread simplification & cleanups"
+altair-viz/altair_data_server,MAINT: thread simplification & cleanups
+altair-viz/altair_data_server,"Merge pull request #30 from jakevdp/cleanup,,MAINT: some py3 & type hint cleanup"
+altair-viz/altair_data_server,MAINT: some py3 & type hint cleanup
+altair-viz/altair_data_server,"Merge pull request #28 from jakevdp/cleanup,,MAINT: some docs & type cleanups"
+altair-viz/altair_data_server,MAINT: some docs & type cleanups
+altair-viz/altair_data_server,MAINT: cleanup setup.py
+quantumjim/Quantum-information-course-Basel,clean up
+quantumjim/Quantum-information-course-Basel,clean up
+quantumjim/Quantum-information-course-Basel,clean up
+quantumjim/Quantum-information-course-Basel,cleaning up
+RubensZimbres/Repo-2019,Delete git_clean0.png
+ElementAI/TADAM,Removed unused functions and cleaned up
+HETDEX/hetdex_api,additional wrapper to make code read a little cleaner
+HETDEX/hetdex_api,"Added some text, cleaned it up"
+tsybulkin/box-detect,some clean-up made
+DhruvJawalkar/yoga-pose-estimation,"updated pose list, added cleaned images dataset to box"
+derlin/hepqpr-qallse,cleanup: remove all unused or not pertinent files
+Satokaheni/Data-Structures,cleaning up
+JacobJeppesen/ML-Course,Updates to Readme - needs to be cleaned however
+skrinak/recommendationEngine,Postest cleanup instructions on each lab guide.
+srihari-humbarwadi/DeepLabV3_Plus-Tensorflow2.0,cleanup
+srihari-humbarwadi/DeepLabV3_Plus-Tensorflow2.0,clean up
+srihari-humbarwadi/DeepLabV3_Plus-Tensorflow2.0,clean up
+srihari-humbarwadi/DeepLabV3_Plus-Tensorflow2.0,clean up
+smsharma/mining-for-substructure-lens,Ran bib cleaning script
+smsharma/mining-for-substructure-lens,"Merge pull request #22 from johannbrehmer/master,,License, readme, repo cleanup"
+smsharma/mining-for-substructure-lens,More cleanup
+smsharma/mining-for-substructure-lens,"README, MIT license, beginning cleanup"
+smsharma/mining-for-substructure-lens,Ran reference clean scipt to not show arXiv as journal
+smsharma/mining-for-substructure-lens,Added and ran script to clean and homogenize references
+smsharma/mining-for-substructure-lens,Some cleanup
+smsharma/mining-for-substructure-lens,"More results, cleaned up notebooks"
+smsharma/mining-for-substructure-lens,Updated cluster scripts and cleaned up a little
+smsharma/mining-for-substructure-lens,"Minor cleanup, added maximum subhalo mass options"
+smsharma/mining-for-substructure-lens,Some cleaning up
+smsharma/mining-for-substructure-lens,"Added NaN cleaning to combine_samples, and theta reshaping to the appropriate places"
+aws-samples/aws-ml-detection-workshop,Updated return to repo link and removed redundant clean-up info.
+aws-samples/aws-ml-detection-workshop,Adding back clean-up steps in a separate file.
+aws-samples/aws-ml-detection-workshop,Updated presentation deck and added link pointer to repo in cleanup steps.
+barisozmen/deepaugment,experiments cleaned
+sergulaydore/EE-551-Fall-2019,lecture 2 and cleaning with lecture 1
+ilmonteux/logohunter,moved my version of create_clean_dataset.py from scripts/ to src/
+ilmonteux/logohunter,"moved data cleaning script to src/, left original in dataset directory"
+ilmonteux/logohunter,added modified script that cleans Logos In The Wild dataset
+empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks,prostate cancer example (code cleanup)
+danielkunin/Regularized-Linear-Autoencoders,"Merge pull request #5 from bgorissen/exact_minimization,,code cleanup and added support for scipy.optimize"
+danielkunin/Regularized-Linear-Autoencoders,code cleanup
+mwaugh0328/data_bootcamp_spring_2019,added clean chipoltle
+mwaugh0328/data_bootcamp_spring_2019,more cleaning
+mwaugh0328/data_bootcamp_spring_2019,added cleaning
+mwaugh0328/data_bootcamp_spring_2019,clean up repo
+biof509/spring2019,Fixed make clean to allow persistent objects in docs /2019*
+NathanMaton/vix_prediction,"cleaned files, re-ran results after catching a mistake"
+NathanMaton/vix_prediction,File cleaning complete
+NathanMaton/vix_prediction,"reorganized repo, cleaned up helper.py and added text to readme.md"
+NathanMaton/vix_prediction,cleaned directory putting old notebooks in their own folder
+NathanMaton/vix_prediction,cleaned prime
+kylemath/DeepEEG,cleaned up Muse example and tested
+kylemath/DeepEEG,cleaned up the emcp function
+kylemath/DeepEEG,"adding unit test framework, cleaning reqs, readme, gitignore"
+kylemath/DeepEEG,"'Testing cleanup of FeatureEng function, feats.model_type'"
+yuvalatzmon/SACRED_HyperOpt_v2,stablized code + cleaninig + documenting + README
+yuvalatzmon/SACRED_HyperOpt_v2,clean up code for implementation with a class
+goru001/nlp-for-punjabi,files cleanup
+goru001/nlp-for-hindi,files cleanup
+jkbren/einet,clean up README.md
+wxbaum/twitter_user_scraper,Added engagement metric and additional data cleansing
+slanglab/freq-e,tutorial cleanup
+slanglab/freq-e,"cleanup, typos"
+slanglab/freq-e,"ecdf doc cleanup, function renames.,Remove “posterior” terminology."
+slanglab/freq-e,pylint cleanup
+slanglab/freq-e,cleanup
+slanglab/freq-e,cleanup
+slanglab/freq-e,examples and the cleaned up code for the implicit generative likelihood method from the paper
+Asterics2020-Obelics/School2019,"Merge pull request #4 from Asterics2020-Obelics/env_cleanup,,Install compiler tools, clean environment"
+Asterics2020-Obelics/School2019,"Install compiler tools, clean environment"
+pygpc-polynomial-chaos/pygpc,"[MOD] general cleanup and the following changes,1) refactoring: 'SimulationWrapper' to 'Model',2) signature of run_reg_adaptive2_parallel now takes the Model-class,   as an argument (no factory method required anymore),3) order of the results when reading or writing is no properly maintained,4) simulate method now does not need to block anymore, results are sorted,   after completion of Pool.map"
+fzyukio/koe,Add song-partition page. Very messy code - to be cleaned up
+fzyukio/koe,Properly clean up selectize objects on finish editing
+h2oai/tutorials,"Added Python script that cleans original UCI dataset,,In new tutorial version, user downloads the dataset from S3,and it is already modified to not have the first row."
+h2oai/tutorials,final clean up
+yongbowin/pytorch-pretrained-BERT_annotation,update clean
+yongbowin/pytorch-pretrained-BERT_annotation,update clean
+dragen1860/TensorFlow-2.x-Tutorials,"Revert previous merge for cleaner merge,,Revert ""Update README.md"",,This reverts commit b82a70b6714a747c12b0bf6736900d4c6adc1f31.,,Revert ""Update README.md"",,This reverts commit 3996725786b9f9d053c064a2ea351917adf0fd7e.,,Revert ""only support python 3.x"",,This reverts commit 98fb01e9ee347b9b920b8bea283538c6484ecb81.,,Revert ""update lesson02"",,This reverts commit cc49897f245b7fc82246727e84263792a99a7fbb.,,Revert ""add ppt and slides"",,This reverts commit 0eb804e66c6d720c120ce5f716dc006a1e14b012."
+lambdaclass/finance_playground,"Merge pull request #132 from lambdaclass/cmb_cleanup,,cmb cleanup"
+lambdaclass/finance_playground,cmb cleanup
+lambdaclass/finance_playground,"Merge pull request #92 from lambdaclass/cleanup,,Fixed mybinder.org link"
+lambdaclass/finance_playground,"Merge pull request #91 from lambdaclass/cleanup,,Cleanup"
+keitakurita/Practical_NLP_in_PyTorch,Adding utility functions for cleaning tutorial notebooks
+AlkaSaliss/DEmoClassi,"add markdown doc, and clean the code, and add stream prediction using opencv"
+AlkaSaliss/DEmoClassi,clean the code
+AlkaSaliss/DEmoClassi,clean the directories and improve the docstring
+AlkaSaliss/DEmoClassi,a big cleanup of the repo
+DHI/mikeio,Notebook clean run
+FoleyLab/wptherml,cleaned up jagg stuff
+FoleyLab/wptherml,cleaned up beta - now ready for release!
+FoleyLab/wptherml,cleaned up repo
+FoleyLab/wptherml,cleaned up datalib
+asheeshcric/fuse-ai,Start assignment on Supervised ML with data cleaning
+mlvu/worksheets,clean worksheet 3
+google/empirical_calibration,"Further clean up py2 support.,,PiperOrigin-RevId: 290794635"
+google/empirical_calibration,"Further clean up py2 support.,,PiperOrigin-RevId: 290754733"
+osuossu8/Utils,util functions for text data cleansing
+Canisback/roleML,"Returning ""cleaned up"" roles now, as it looks better"
+Canisback/roleML,More minor cleanups for readability
+jsedoc/ConceptorDebias,"Merge pull request #3 from jsedoc/ACL-cleanup,,Cleaned repository"
+jsedoc/ConceptorDebias,"Merge pull request #2 from jsedoc/ACL-cleanup,,Acl cleanup"
+jsedoc/ConceptorDebias,"Merge pull request #1 from jsedoc/ACL-cleanup,,Merge master into Acl cleanup"
+jsedoc/ConceptorDebias,Merge branch 'master' into ACL-cleanup
+jsedoc/ConceptorDebias,Moved lots of stuff around. Time to clean up ...
+aws-samples/amazon-sagemaker-script-mode,cleanup
+microsoft/SpeciesClassification,Fixed bug and clean-up in dataset merge script
+chrisluedtke/divvy-data,clean up file load logic
+LinXueyuanStdio/LaTeX_OCR,clean
+microsoft/sqlworkshops,"Add cleanup for module 2,,added cleanup script and steps to run it for security"
+microsoft/sqlworkshops,"Bug fixes and more formatting,,found a bug in a shell script, bugs in readme files, and did more cleanup and formatting"
+microsoft/sqlworkshops,"More format changes,,More cleanup and format of readme files"
+microsoft/sqlworkshops,Added comments for cleanup script for Module 1 and preview comment  for Module 05
+microsoft/sqlworkshops,Fixed permissions and cr in script files and added cleanup script
+microsoft/sqlworkshops,formats and cleanup
+microsoft/sqlworkshops,added in diagram for module 4 and cleaned up a few formatting issues
+microsoft/sqlworkshops,"cleanup several of the readme files, removed autotune part of module 3, and added T-SQL scripts for Module 3"
+microsoft/sqlworkshops,added cleanup script for end of module 4
+microsoft/sqlworkshops,Added in files for operator demo and a cleanup script for basic demo
+microsoft/sqlworkshops,more md cleanup
+KushajveerSingh/Deep-Learning-Notebooks,nbdev_clean_nbs + seaborn
+LaRiffle/collateral-learning,Update de learn module to have clean normal & collateral train func
+LaRiffle/collateral-learning,"Move data-related func in utils, and clean learn.main/train/test"
+amaiya/ktrain,Merge branch 'datacleanup' into develop
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,Merge branch 'develop' into datacleanup
+amaiya/ktrain,cleanup BERT example notebook
+amaiya/ktrain,cleanup downloaded zips of pretrained models
+chrisking/personalens,cleaned up history
+chrisking/personalens,Doc structure cleanup
+copernico/msr2019,"fixed dataset csv (removed trailing slashes in urls), notebook cleanup"
+quantumblacklabs/qbstyles,"Add makefile with clean, install, package and publish commands (#10)"
+hammerlab/t-cell-relation-extraction,Notebook cleanup
+lgsvl/lanefollowing,Use Xauthority env variable and clean up docker compose
+brendanvonhofe/telescope-nn,cleanup
+brendanvonhofe/telescope-nn,cleanup
+facebook/Ax,"Clean up observation.py,,Summary:,I set out to see if there are some easy ways of speeding up `observations_from_data`, but unfortunately that's not the case. Either way, I did some code cleanup in the process, which we may as well land.,,Unfortunately, vectorizing this doesn't seem particularly straightforward either, since `ObservationData` contains multiple metrics. The reason this is done is that this data structure will eventually allow to support inputs where we have non-diagonal observation noise covariances. Since we're not really using this capability anywhere at this point, one thing we could potentially consider if this really turns out to be a major bottleneck would be to allow a different kind of of data structure, but that would require a ton of changes throughout and seems like a bad solution.,,A better way to deal with this would be to keep a cache of `ObservationData` objects around during the course of the optimization. This would allow to just append new  `ObservationData`  from additional trials to this cache and we'd avoid replicating a ton of effort when getting calling `fetch_data`. We could rebuild that cache when needed (e.g. after a re-loading an experiment). However, it's not entirely clear to me where this cache would live. Presumably it could be on the model and be updated when using the `update` method?,,cc ldworkin, bletham, lena-kashtelyan,,Reviewed By: lena-kashtelyan,,Differential Revision: D21170849,,fbshipit-source-id: e5c9970b30680ab7341ec1816b3451cc464fbef9"
+facebook/Ax,"Keep mapping of generation steps to trials,,Summary:,This diff does quite a few things, but all with the intention of using Trial statuses to keep track of when the generation strategy should proceed to the next model (instead of parsing `Data` for new arms).,,This way we:,1) get rid of hacky dataframe-parsing logic,,2) eliminate the need to Service / Loop API / Generation Strategy users to necessarily know what arms are and how they correlate with trials,,3) allow for a clean way of seeing all one's trials and the state of the generation strategy like so (source: n186960, is updated with the recent changes:,,{F225321215},,Kostya and I thought that this was a good idea and made the code quite a bit cleaner; I'd love to hear what others think. The main tricky point (`_map_new_experiment_trials_to_steps`) has a long comment attached to it : ),,NOTE: pls disregard the failing tests for now; looking for feedback on the logic itself, will fix tests later.,,Reviewed By: ldworkin,,Differential Revision: D19165422,,fbshipit-source-id: 9cd320110074a474197f7869302c9ac309c62955"
+facebook/Ax,"Don't error in MTGP if status quo is missing (#193),,Summary:,Pull Request resolved: https://github.com/facebook/Ax/pull/193,,Not all uses of MT-GP (for example, the tutorial!) require a status quo.,,This removes that requirement from the MT-GP factory (and cleans up some other cruft).,,This addresses https://github.com/facebook/Ax/issues/183,,Reviewed By: bletham,,Differential Revision: D18193212,,fbshipit-source-id: f52eda6d62609315e10a79d0031155dafa67a436"
+facebook/Ax,"Propogate fixed features deep into plotting code to make it work for FO,,Summary:,What a journey. To make predictions for FO, you need to specify whether to make the predictions in the ""online"" or ""offline"" domain. The problem is our model.predict happens very deep into our plot code so we need to pass this very deeply into the stack.,,That's mostly what this diff does plus some other minor cleanup to get things working,,Reviewed By: bletham,,Differential Revision: D16456098,,fbshipit-source-id: 100385f47b8cf5b7af0717a27bf3f5db0764f25f"
+facebook/Ax,"Update styling for Sphinx,,Summary:,* Move core API to separate page to make landing page cleaner,* Added new styling:,,https://pxl.cl/xzzQ,https://pxl.cl/xzzT,https://pxl.cl/xzzV,,Reviewed By: lena-kashtelyan,,Differential Revision: D15214079,,fbshipit-source-id: 1a12fa20f4e0c03adce47953d47b2d41b07c557e"
+paiml/python_for_datascience,clean up
+malware-revealer/malware-revealer,update: some code cleaning
+swenlaur/machine-learning-ii,Lecures are cleaned. A lot of stuff to be done
+swenlaur/machine-learning-ii,Sping cleanup
+wfitz/Python,Small update and cleanup
+pycroscopy/AICrystallographer,Add tutorial for a simple image cleaning
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,simplified and cleaned tfrecord generation
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,further cleanup. Removal of cells that had code packed (later) in functions
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,cleanup of the notebook for the full dataset statistics
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,added initial (and cleaned) notebook with statistics for all frames
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,added the missing statistic about in how many videos each object appears. Minor cleanup
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,tidied up and cleaned the dataset statistics notebook for the split dataset (train/text)
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,cleaned up the legacy script
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,cleaned and modified notebooks for frames generations and histograms figures
+tilemmpon/Singapore-Maritime-Dataset-Frames-Ground-Truth-Generation-and-Statistics,initial version of notebooks. Need cleaning.
+tulip-lab/sit742,cleaning
+tulip-lab/sit742,cleanup
+Quansight-Labs/python-moa,setup.py cleanup inspired by uarray
+microsoft/computervision-recipes,Added steps to clean up conda envs_dir to ensure that no build artifacts are leftover. (#505)
+microsoft/computervision-recipes,minor clean-up
+microsoft/computervision-recipes,clean up of keypoint detection notebook
+microsoft/computervision-recipes,tiny cleanup on notebook
+DiscreetAI/decentralized-ml,"clean up, added schema check for dataset formatting and headers"
+DiscreetAI/decentralized-ml,clean up getting raw data
+DiscreetAI/decentralized-ml,"improved tests, cleaned up configuration files, addressed PR feedback"
+DiscreetAI/decentralized-ml,"Merge pull request #22 from georgymh/dmljob-cleanup,,Clean up DMLJob and add docs"
+DiscreetAI/decentralized-ml,update config test to be more rigorous + documentation clean up
+DiscreetAI/decentralized-ml,added tests + cleaned up documentation
+DiscreetAI/decentralized-ml,"clean up docs, error handling, clean_up"
+DiscreetAI/decentralized-ml,clean up
+DiscreetAI/decentralized-ml,clean up
+DiscreetAI/decentralized-ml,clean up
+DiscreetAI/decentralized-ml,"Merge pull request #8 from georgymh/bootstrapper,,Add bootstrapper with flask-based comm. manager & a few clean ups"
+DiscreetAI/decentralized-ml,Make Scheduler a non-singleton and clean up
+DiscreetAI/decentralized-ml,"Merge pull request #6 from georgymh/integer_labeler,,cleaned iterator, made integer labeler"
+DiscreetAI/decentralized-ml,"cleaned iterator, made integer labeler"
+DiscreetAI/decentralized-ml,"Merge pull request #2 from georgymh/dependencies,,Fix dependency issues and clean dependencies"
+DiscreetAI/decentralized-ml,Small clean-up
+DiscreetAI/decentralized-ml,Rename Client to Runner and clean up
+DiscreetAI/decentralized-ml,Rename Client to Runner and clean up
+DiscreetAI/decentralized-ml,"Fix a lot of bugs,,Needs clean up and exhausting testing. python experiment.py -k 1 -r 1 -e 50 runs as expected. Currently initializing models on each client randomly -- should initialize once during server or at 1 client."
+ynadji/hands-on-adversarial-ml,clean up jpeg defense solution
+ynadji/hands-on-adversarial-ml,cleanup for first round of reviews
+ynadji/hands-on-adversarial-ml,add JPEG defense solution. needs some cleanup!
+FrancescoSaverioZuppichini/ResNet,clean the repo
+ocaml-bench/sandmark,clean-up
+ocaml-bench/sandmark,clean-up
+ocaml-bench/sandmark,cleanup for multicore runs
+ocaml-bench/sandmark,clean up results in a clean
+chrisluedtke/data-science-journal,clean up notebook
+rapidsai/notebooks-contrib,"Merge pull request #286 from rapidsai/update_readme0.14,,README.md housecleaning"
+rapidsai/notebooks-contrib,"Fix ASONAM 2019 info,,clean up readme and start to add in ASONAM info"
+rapidsai/notebooks-contrib,"- moved Santander Blog notebooks to blogs,- added disclaimers to Santander blog notebooks,- created competition notebooks list and disclaimer readme.  we'll decide when to transfer and prune,- removed custreamz notebooks. jdye will have updated one soon,- remaned KDD notebooks so that markdown links would work in readme,- README clean up"
+rapidsai/notebooks-contrib,"improved by fixing, cleaning, or updating these notebooks.  Some notebooks just had their test dates updated."
+rapidsai/notebooks-contrib,"Update NYCTaxi-E2E.ipynb,,cleaned up output, minor fixes"
+rapidsai/notebooks-contrib,"Update NYCTaxi-E2E.ipynb,,cleaned up output, minor fixes"
+rapidsai/notebooks-contrib,"Merge pull request #157 from rapidsai/taureandyernv-update-comp-desc,,Updated README.md with long awaited descriptions in competition section and other minor cleanup"
+rapidsai/notebooks-contrib,"Merge pull request #157 from rapidsai/taureandyernv-update-comp-desc,,Updated README.md with long awaited descriptions in competition section and other minor cleanup"
+rapidsai/notebooks-contrib,"Update README.md,,cleaned up and redirected to Notebooks repo"
+rapidsai/notebooks-contrib,"Update README.md,,cleaned up and redirected to Notebooks repo"
+rapidsai/notebooks-contrib,"Merge pull request #62 from JohnZed/enh-clean-cuml-bench,,Add KMeans benchmark to cuML benchmark notebook (and clean results)"
+rapidsai/notebooks-contrib,"Merge pull request #62 from JohnZed/enh-clean-cuml-bench,,Add KMeans benchmark to cuML benchmark notebook (and clean results)"
+rapidsai/notebooks-contrib,Merge remote-tracking branch 'origin' into enh-clean-cuml-bench
+rapidsai/notebooks-contrib,Merge remote-tracking branch 'origin' into enh-clean-cuml-bench
+koaning/brent,added more clean steps to makefile
+koaning/brent,flake cleanup
+fuzzythecat/awesome-spacer,"Refactor,,1. Add learning rate scheduler.,2. Do some code cleanup"
+deathbeds/wxyz,#11: clean up deps
+deathbeds/wxyz,clean up recipes and imports
+deathbeds/wxyz,clean up some more
+deathbeds/wxyz,clean up labextensions
+deathbeds/wxyz,clean up core
+deathbeds/wxyz,clean up datagrid
+deathbeds/wxyz,clean up html
+deathbeds/wxyz,clean up lab
+deathbeds/wxyz,clean up svg
+deathbeds/wxyz,clean up svg
+deathbeds/wxyz,clean up nunujucks
+deathbeds/wxyz,clean up some docs
+deathbeds/wxyz,clean up some notebooks
+deathbeds/wxyz,clean up api
+davidzoltowski/ssmdm,fix initial state distribution and clean up dual accumulator example
+davidzoltowski/ssmdm,clean up notebooks
+thampiman/interpretability,Image cleanup
+Lemma1/NGSIM-interface,clean the repo
+jrzaurin/ml_pipelines,cleaning garbage
+jrzaurin/ml_pipelines,cleaning garbage
+jrzaurin/ml_pipelines,cleaning some code
+jrzaurin/ml_pipelines,cleaning some code
+awslabs/handwritten-text-recognition-for-apache-mxnet,"Merge pull request #23 from ThomasDelteil/denoiser,,Adding Denoiser and cleaning up repo"
+pnnl/socialsim_package,"Merge pull request #17 in SOCIALSIM/socialsim_package from dev to master,,* commit '71e83805049eb0a95d3e2d3c5609518e0ab01e5a':,  tested socials activity measurements,  network measurements tested and running,  Cascade measurements tested and working,  more cleaning,  deleted tests in prep for release,  added metadata detail to cross_platform,  moved community info to metadata object in cross_platform,  Changed naming conventions,  fixed infospread measurements,  Minor bug fixes,  Adding new metric; changing output of some cross platform measurements"
+pnnl/socialsim_package,more cleaning
+EricAlcaide/MiniFold,clean trash folders + update gitignore
+EricAlcaide/MiniFold,adding 2d predictions. Preprocessing scripts clean and working
+sbonaretti/pyKNEEr,cleaning up
+desireevl/quantum_walk,cleaned
+facebookresearch/EGG,clean up
+github/CodeSearchNet,"Merge pull request #18 from github/fix-annoy-warning,,clean up annoy warning in predict.py"
+github/CodeSearchNet,clean up annoy warning in predict.py
+krasing/multilabel-ULMFiT,run notebook and clean minor bugs
+JackHidary/quantumcomputingbook,Added initial version of cleaned up quantum chemistry (simulation) program from chapter 10.2 using Cirq and OpenFermion.
+JackHidary/quantumcomputingbook,Added cleaned up versions of noisy VQE simulations to the vqe.py program in chapter 10.
+generalized-iou/g-darknet,lots of cleaning
+generalized-iou/g-darknet,cleaned up data parsing a lot. probably nothing broken?
+bobby-he/Neural_Tangent_Kernel,clean
+NCAR/ncar-python-tutorial,cleaned up branch part_1
+NCAR/ncar-python-tutorial,cleaned up file names
+NCAR/ncar-python-tutorial,"Merge pull request #111 from kmpaul/cleanup,,Cleanup"
+NCAR/ncar-python-tutorial,"Merge pull request #110 from kmpaul/master,,Some minor cleanup"
+NCAR/ncar-python-tutorial,Some more cleanup and clarification
+NCAR/ncar-python-tutorial,"Merge pull request #23 from andersy005/cleanup,,Clean up repository"
+NCAR/ncar-python-tutorial,cleanup
+NCAR/ncar-python-tutorial,file cleanup
+fancompute/qpga,"clean up repository, delete deprecated code, move log files to /logs"
+pysal/spopt,ENH: reording examples in maxp notebook and cleaning
+pysal/spopt,"Merge pull request #9 from jGaboardi/kmeans_cleanup,,cleaning up region_k_means.py"
+pysal/spopt,cleaning up region_k_means.py
+harshraj11584/Paper-Implementation-Matrix-Factorization-Recommender-Systems-Netflix,"loaded,cleaned,converted into matrix form"
+lumiata/tech_blog,Add clean version of Renzo's Repo
+Scitator/RL-intro,cleanup
+zdelrosario/py_grama,clean
+gear/denoising-gnn,clean up
+gear/denoising-gnn,clean up
+trustar/trustar-daenerys,clean up libraries
+gdsbook/book,cleaned county income data workflow
+gdsbook/book,Move regression_cleaning notebook to AirBnb folder
+gdsbook/book,"Adding jupytext to container, adding conda clean to cleanup"
+pedrojpaez/personalize_workshop,cleaned recommender kers notebook
+yortos/imessage-analysis,added the clean notebook for data extract and prep
+ychennay/dso-599-text-analytics-nlp,week6 cleanup
+kheyer/Genomic-ULMFiT,minor cleanup
+kheyer/Genomic-ULMFiT,metagenomics notebooks cleanup
+kheyer/Genomic-ULMFiT,bacterial notebooks cleanup
+kheyer/Genomic-ULMFiT,cleaning up mammalian notebooks
+kheyer/Genomic-ULMFiT,filename cleanup
+gaetandi/cheXpert,cleaning
+gaetandi/cheXpert,cleaning2
+gaetandi/cheXpert,cleaning
+keyblade95/recsys2019,adding impression feature cleaned
+keyblade95/recsys2019,"Update last_steps_before_clickout.py,,cleaned"
+keyblade95/recsys2019,Added features in a cleaner way in create dataset for classification
+keyblade95/recsys2019,"Cached dataset, cleaned code"
+keyblade95/recsys2019,cleaned up dataset creation + new features for session
+keyblade95/recsys2019,"clean duplicated pairs (session_id, step) in test.csv and train.csv"
+keyblade95/recsys2019,cleaned up data dictionary creation
+keyblade95/recsys2019,cleaned distanced_base recommender and recommend_batch for als
+keyblade95/recsys2019,"clean_data added,,file to implement some cleaning method for the data"
+keyblade95/recsys2019,evaluate.py cleaned and removed place_csv_here
+findyourmagic/geospatial-data-analysis-cn,clean output of notebooks 1-4
+findyourmagic/geospatial-data-analysis-cn,update notebooks with clean new data
+findyourmagic/geospatial-data-analysis-cn,swap to clean and updated version of berlin neighbourhoods
+domingomery/patrones,clean index for set05
+nicolas-gervais/predicting-car-price-from-scraped-data,"Create data cleaning,,Cleans the data, deletes older cars"
+maelfabien/Multimodal-Emotion-Recognition,Delete Text_clean.iml
+gamleksi/affordance_gym,Code clean up 2. Argument parser update. Requirements included.
+gamleksi/affordance_gym,Affordance Gym code cleaned.
+CompPhysics/MachineLearningMSU,cleaning up slides
+CompPhysics/MachineLearningMSU,cleaning up regression slides
+CompPhysics/MachineLearningMSU,cleaned up
+CompPhysics/MachineLearningMSU,cleaned up
+nestauk/im_tutorials,Update- cleaner notebook (intro to pandas)
+nestauk/im_tutorials,clean up bits and pieces
+ruyimarone/character-eyes,"initial cleanup, updated deps"
+ruyimarone/character-eyes,"cleaned up model, added legacy loading"
+PyThaiNLP/wisesight-sentiment,clean up filepath error and remove unused cell with an unused variable 'b'
+chu-data-lab/GOGGLES,implement vectorized bmm & cleanup
+chu-data-lab/GOGGLES,clean up development set theory
+o19s/hello-ltr,Further cleanup of root dir
+o19s/hello-ltr,clean ipynbs
+o19s/hello-ltr,clean up netfix from training
+o19s/hello-ltr,cleanup ipynbs from renaming spree
+o19s/hello-ltr,add search method and cleanup ipynbs
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #22 from scoutbee/cleanup/add-requirements,,Add requirements.txt"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #18 from scoutbee/cleanup/add-contributing-readme,,Add section to README on contributing"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #17 from scoutbee/cleanup/run-embeddings-notebook,,Run embeddings notebook"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #16 from scoutbee/cleanup/mt-seq2seq,,Cleanup MT seq2seq notebook"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #15 from scoutbee/cleanup/char-rnn-diagram,,Use custom diagram"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #12 from scoutbee/cleanup/remove-0-notebook,,Remove 0 notebook"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #10 from scoutbee/cleanup/clear-notebook-outputs,,Clear output of all notebooks"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #8 from scoutbeedev/0-cleanups,,Cleanups"
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #7 from scoutbeedev/1-minor_cleanups,,Add minor cleanups to #1"
+scoutbee/pytorch-nlp-notebooks,Add minor cleanups to #1
+scoutbee/pytorch-nlp-notebooks,"Merge pull request #5 from scoutbeedev/cleanup/zero-notebook-tweaks,,Tweaks to zero notebook"
+scoutbee/pytorch-nlp-notebooks,Add text wraping and cleanups to GPT-2 notebook
+shaypal5/stationarizer,first cleanup of import from other script
+reiinakano/neural-painters,clean up style transfer a bit
+ARM-DOE/ACT,"Merge pull request #221 from kenkehoe/gen_writer,,Adding generic writer to clean up Dataset before writing to file with .to_netcdf()"
+ARM-DOE/ACT,Adding generic writer to clean up Dataset before writing to file with .to_netcdf()
+ARM-DOE/ACT,"Merge pull request #202 from kenkehoe/clean_try,,There is an issue when checking for variables incorrectly upconverted from int to float when xarray finds missing_value attributes. This function will try to revert the float back to int for things like QC and state type variables. This error was incorrectly catching errors while trying to guess the correct numpy dtype."
+ARM-DOE/ACT,ENH: Updating utils calls to be cleaner
+ARM-DOE/ACT,"ENH: Removed dependency numpy doc in favor of napoleon.,Napoleon overall is cleaner and its a sphinx extension, so removed need,for numpydoc."
+ARM-DOE/ACT,"Merge pull request #161 from kenkehoe/move_clean,,Move clean to QC"
+ARM-DOE/ACT,Adding in clean for move from io to qc.
+ARM-DOE/ACT,Fixing error with updating to move clean method from io to qc.
+ARM-DOE/ACT,Updated for moving clean from io to qc.
+ARM-DOE/ACT,Moving clean.py to the qc directory.
+ARM-DOE/ACT,"Merge pull request #126 from kenkehoe/clean_fix,,Clean fix"
+ARM-DOE/ACT,Updated to check for removal of attribute when cleaning ARM state variables.
+ARM-DOE/ACT,"Merge pull request #68 from kenkehoe/clean_global_qc,,Fixing issue with cleaning up global attributes but there are no glob…"
+ARM-DOE/ACT,Fixing issue with cleaning up global attributes but there are no global attributes to clean.
+ARM-DOE/ACT,"Merge pull request #63 from kenkehoe/clean_state,,Clean state"
+ARM-DOE/ACT,"Updated to correct issues with xarray converting qc and state fields to float. This will convert back to int, hopefully correctly. Also cleaned up some of the code."
+ARM-DOE/ACT,"Merge pull request #47 from rcjackson/io_doc_fix,,DOC: Now we can actually get to csvfiles and clean in the docs."
+ARM-DOE/ACT,DOC: Now we can actually get to csvfiles and clean in the docs.
+ARM-DOE/ACT,"Merge pull request #34 from kenkehoe/clean,,Clean"
+ARM-DOE/ACT,Merge https://github.com/kenkehoe/ACT into clean
+ARM-DOE/ACT,"Merge pull request #19 from kenkehoe/clean,,Clean up dataset from ARM QC to CF QC"
+ARM-DOE/ACT,Added a test for clean and updated the sample files to correctly use MET instead of SONDE
+ARM-DOE/ACT,Added import of clean class
+aws-samples/amazon-sagemaker-examples-jp,clean
+ryanmark1867/manning,Delete 2014_2018_df_cleaned_keep_bad_loc_geocoded_apr23.pkl
+ryanmark1867/manning,Delete trimmed_2014_2018_df_cleaned_keep_bad_loc_geocoded_apr23.csv
+ryanmark1867/manning,Delete 2014_2019_df_cleaned_remove_bad_jul17d.pkl
+ryanmark1867/manning,Delete 2014_2018_df_cleaned_keep_bad_loc_geocoded_apr23.pkl
+ryanmark1867/manning,Delete 2014_2018_df_cleaned_keep_bad_loc_geocoded_apr23.csv
+ryanmark1867/manning,Delete 2014_2018_df_cleaned_keep_bad_apr23.pkl
+ryanmark1867/manning,Delete 2014_2018_df_cleaned_keep_bad_apr23.pkl
+Quansight-Labs/metadsl,cleaner vis
+Quansight-Labs/metadsl,"Merge pull request #14 from Quansight-Labs/cleanup,,WIP: Try removing ExplodeVector and thunk"
+gclouduniverse/notebooks-ci-showcase,cleanup demo
+virgili0/Virgilio,"Merge pull request #102 from virgili0/paradiso-cleaning,,Paradiso cleaning"
+virgili0/Virgilio,Merge branch 'dev' into paradiso-cleaning
+virgili0/Virgilio,"README cleanup, update LICENSE"
+virgili0/Virgilio,"Improvements, cleanup"
+virgili0/Virgilio,Minor improvements and clean up
+GoogleCloudPlatform/keras-idiomatic-programmer,clean up text
+GoogleCloudPlatform/keras-idiomatic-programmer,cleanup
+GoogleCloudPlatform/keras-idiomatic-programmer,clean up
+GoogleCloudPlatform/keras-idiomatic-programmer,another cleanup round
+GoogleCloudPlatform/keras-idiomatic-programmer,final cleanup
+jacobeisenstein/language-change-tutorial,cleaned up
+the-deep-learners/deep-learning-illustrated,clean up Unix install steps
+Chipdelmal/dataPy_CADi,Adding data cleaning example for housing dataset.
+hundredblocks/ml-powered-applications,cleanup notebooks
+hundredblocks/ml-powered-applications,cleanup explore and move clustering
+deejayrusso/Salary-Prediction-Portfolio,Data cleansed and quickly analyzed for minimum viable model.
+deejayrusso/Salary-Prediction-Portfolio,"Added annot to correlation  heatmap, cleaned some exploratory code"
+adrian-soto/mock-request,wording cleanup
+adrian-soto/mock-request,Small docstring cleanup
+adrian-soto/mock-request,Docstring cleanup
+adrian-soto/mock-request,A bit of clean up and docstring improvement.
+SeptivianaSavitri/adl_python,clean unused comment from the notebook
+chalmerlowe/machine_learning,updated/cleaned up the install instructions
+chalmerlowe/machine_learning,cleaned up versions of several lssns
+Aturt2/music-sheet-generator,General cleanup
+goru001/nlp-for-sanskrit,files cleanup
+goru001/nlp-for-sanskrit,files cleanup
+Zymrael/PortHamiltonianNN,feat: cleaner gif (3)
+Zymrael/PortHamiltonianNN,feat: cleaner gif (2)
+Zymrael/PortHamiltonianNN,feat: cleaner gif
+Zymrael/PortHamiltonianNN,feat: clean codebase
+Zymrael/PortHamiltonianNN,org: general refactor and cleaning
+Zymrael/PortHamiltonianNN,cleanup: reqs
+goru001/nlp-for-bengali,files cleanup
+goru001/nlp-for-nepali,update projection link + cleanup
+NREL-SIIP/SIIPExamples.jl,cleaning selective network example and fixing tabular_data parsing
+NREL-SIIP/SIIPExamples.jl,adding bar plot and cleaning file paths
+NREL-SIIP/SIIPExamples.jl,cleaning op prob nb
+NREL-SIIP/SIIPExamples.jl, cleaning up and making tests pass
+bentrevett/pytorch-rl,update\n* cleaned up code\n* evaluate agents on test environment (with different seed)\n* use ActorCritic model\n* improved results on GAE\n* probably some more things
+bentrevett/pytorch-rl,"cleaning + progress,,- started working on multiprocessing a2c (notebook + utils.py),,- updated readme to contain actual information,,- updated graphs to have titles, increase font size of x and y labels,,- cleaned up plot_results.py"
+bentrevett/pytorch-rl,"cleaning,,- removed all ppo hyperparam results,,- removed all +entropy + single model test files,,- improved plotting of test results file"
+perryrjohnson/Bird_DS,Update initial_clean.py
+perryrjohnson/Bird_DS,Create initial_clean.py
+AravindGanesh/ML_WirelessComm,cleaned up
+AravindGanesh/ML_WirelessComm,cleaned up
+abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork,added data cleaning and extraction
+abhiksark/Diabetic-Retnopathy-Classification-ConvolutionalNeuralNetwork,added data cleaning and extraction
+htorrence/getting_started_with_pyspark,clean up notebooks
+htorrence/getting_started_with_pyspark,cleaning up notebooks
+htorrence/getting_started_with_pyspark,cleanup
+chawins/knn-defense,clean up
+NCBI-Hackathons/TheHumanPangenome,cheat sheet cleanup
+fetchai/agents-tac,"Merge pull request #408 from fetchai/fix/cleanup,,miscellaneous cleanup"
+fetchai/agents-tac,miscellaneous cleanup
+fetchai/agents-tac,"Merge pull request #404 from fetchai/feature/cleanup,,cleanup using black and changes to ci"
+fetchai/agents-tac,cleanup using black and changes to ci
+fetchai/agents-tac,clean up experiment data
+fetchai/agents-tac,Finish linting error cleanup.
+fetchai/agents-tac,fix docstrings and clean up.
+fetchai/agents-tac,"add 'update' method in main loop for generic internal operations.,,- add the update method to handle generic internal operations that do not involve,  any input/output message; they should be handled in the react() and act() method,,  respectively. E.g. in the participant agent, this is the place for,  the TransactionManager recurrent cleanup job."
+fetchai/agents-tac,"Merge pull request #323 from fetchai/feat/cleanups,,Feat/cleanups"
+fetchai/agents-tac,Minor cleanups
+fetchai/agents-tac,"Merge pull request #228 from fetchai/fix/cleanup,,Cleanup repo for public release"
+fetchai/agents-tac,merge fix/cleanup branch with local changes
+fetchai/agents-tac,Adds docstring linter and cleans up docstrings for tests and templates
+fetchai/agents-tac,Merge branch 'fix/cleanup' of github.com:fetchai/agents-tac into develop
+fetchai/agents-tac,cleanup Jenkinsfile
+fetchai/agents-tac,"Merge pull request #139 from uvue-git/david/cleanup,,David/cleanup"
+fetchai/agents-tac,"Merge pull request #138 from uvue-git/david/cleanup,,David/cleanup"
+fetchai/agents-tac,small cleanup.
+fetchai/agents-tac,"V2 clean up and refactoring, remove unused methods, improve documentation, DRYing up"
+fetchai/agents-tac,Small refactoring and clean up
+fetchai/agents-tac,Change cleanup timeout parameter to simulation tests. Small fix in baseline agent.
+fetchai/agents-tac,"add pending message cleanup timeout as parameter. Do important fixes,,- addressed PR comments.,- There was a bug when consuming pending messages/transaction in the queue (they were consumed from the end rather than from the start of the queue).,- Also, improved the control over the cleanup job of the lock manager: now it is governed by using 'start()' and 'stop()' public methods."
+fetchai/agents-tac,add cleanup job for proposals/acceptances/locks.
+fetchai/agents-tac,Minor cleaning up
+fetchai/agents-tac,small cleanups
+fetchai/agents-tac,Further cleaning up
+fetchai/agents-tac,"Continues cleanup and fixes, introduces pbks across agents and goods"
+fetchai/agents-tac,Further cleans up core.py
+fetchai/agents-tac,"Separates BaselineAgent from BaselineStrategy, fixes naming issues, cleans up NegotiationAgent abstractions"
+fetchai/agents-tac,Fixes several issues in baseline agent and cleans up a bit
+fetchai/agents-tac,Merge branch 'marco/clean-code'
+fetchai/agents-tac,clean the code of the simulation_demo script.
+fetchai/agents-tac,"Merge pull request #2 from uvue-git/david/documentation,,Some minor naming changes and Readme cleanups"
+fetchai/agents-tac,Some minor naming changes and Readme cleanups
+dnordfors/archetypes,cleaned directory - ready for presentation
+zcaceres/fastai-audio,"Merge pull request #8 from marii-moe/dependencies-clean-up,,removing cyclical dependency betwen Datablock and DataAugmentation"
+zcaceres/fastai-audio,Optimised most transforms; cleaned up API; removed unneccesary helper functions; fixed REPRESENTATION; added file type extension check; probably some other stuff
+zcaceres/fastai-audio,clean up AWD-lstm
+zcaceres/fastai-audio,clean up audiocommon nb
+zcaceres/fastai-audio,clean up DataAug notebook
+gsurma/prison_escape,cleanup
+gsurma/prison_escape,cleanup
+pangeo-data/pangeo-cmip6-examples,cleanup notebook
+acamposxp/RcloneLab,"Update 01/03/2019,- HTTP File Server now using Node.js's ecstatic because of it MUCH FASTER.,- Remove rclone beta option and make the RcloneLab look cleaner.,- Fix some bug."
+TylerLafayette/auta,Started /study and cleaned up easing + added button tap effects
+MicrosoftLearning/dev290x-v2,cleanup
+bdallard/Simplon2k19,clean fastai notebook
+astrojuanlu/ie-mbd-advanced-python,"Merge pull request #11 from vane1993/docs-cleanup,,My pull request"
+astrojuanlu/ie-mbd-advanced-python,"Merge pull request #6 from daguito81/cleanup,,moved txt file into names folder"
+jfilter/ptf-kommentare,fixing & cleaning
+gutfeeling/univariate-linear-regression,Add cleaned data
+kareem1925/Ismailia-school-of-AI,cleaning
+kareem1925/Ismailia-school-of-AI,cleaning 1
+kareem1925/Ismailia-school-of-AI,cleaning
+kareem1925/Ismailia-school-of-AI,cleaning
+kareem1925/Ismailia-school-of-AI,cleaning
+shawlu95/Data-Science-Toolbox,cleaned
+shawlu95/Data-Science-Toolbox,cleaned up
+sjsrey/pysalfoss4g19,"Merge pull request #7 from slumnitz/viz2,,clean namespaces"
+sjsrey/pysalfoss4g19,clean namespaces
+sjsrey/pysalfoss4g19,cleanup copies
+NotAnyMike/HRL,updating experiments and fixing error in track_cleaner
+NotAnyMike/HRL,adding track cleaner
+dave-fernandes/ECGClassifier,cleanup; shuffle dataset
+dave-fernandes/ECGClassifier,cleanup
+QuantumBFS/SSSS, clean up
+YIZHE12/ML_DeepCT,Delete Step1_clean_data(read_frame_crop).ipynb
+YIZHE12/ML_DeepCT,Delete Step1_clean_data(read_frame_crop).ipynb
+YIZHE12/ML_DeepCT,Delete Step1_clean_data(read_frame_crop).ipynb
+YIZHE12/ML_DeepCT,Delete Step1_clean_data(read_frame_crop).ipynb
+odegym/neurodiffeq,"allow the user to specify the scale of the noise when generating training points + some clean up of code in ExampleGenerator, I dont understand why I wrote them in that funny way..."
+odegym/neurodiffeq,"Preparing for PDE systems: implemented solve2D_system, generalized Monitor2D + some clean up."
+odegym/neurodiffeq,Added refs; cleaned up language.
+odegym/neurodiffeq,clean up user guide
+odegym/neurodiffeq,clean up + compare with analytical solution
+uwdata/visualization-curriculum,House cleaning.
+fastestimator/fastestimator,"inline simple functions to reduce number of tables in summary document (+3 squashed commits),Squashed commits:,[e8c9fb5] reduce number of tables for method invocations,[4257b14] make traceability work when user doesn't have a latex compiler,[94264b7] include python version, remove backend from title since doesn't look as clean"
+fastestimator/fastestimator,clean up
+fastestimator/fastestimator,"make lambda variables avoid the extra string quotes (+2 squashed commits),Squashed commits:,[7308e4e] doc string fix,[9cd728f] doc strings (+4 squashed commits),Squashed commits:,[7811fc1] only include id when necessary (encountered something that wasn't traceable). add string wrapping when needed,[b0ef899] consistent id printing,[d38178c] better string quoting,[ff68de0] add compare_op to lambda support (+5 squashed commits),Squashed commits:,[09a1896] catch None,[8492a1e] streamline the string parsing code,[f5d4a74] nested summaries,[72b904e] better printing,[f288732] rebase (+1 squashed commit),Squashed commits:,[cc7cb9a] refactor into new traceability_util file for cleanliness (+9 squashed commits),Squashed commits:,[4dcd299] import cleaning,[79921e7] better fe_summary string,[375cd33] string parsing enhanced,[f01fd13] start the string parsing impl,[325dd07] add support for command descriptions,[f5dcbd8] streamlined method,[58e20a2] first attempt at backwards parsing to pop nested funcs,[2c51d15] lambda functions with more complex args,[078066a] first pass at traceability decorator"
+fastestimator/fastestimator,"Merge pull request #649 from geez0219/1.0dev,,clean the first and last space for tex expression"
+fastestimator/fastestimator,clean the first and last space for tex expression
+fastestimator/fastestimator,"Merge pull request #592 from TortoiseHam/cleanup/xaiData,,change ""XaiData"" into ""ImgData"""
+fastestimator/fastestimator,"Merge pull request #555 from geez0219/1.0dev,,finish getting_started tutorial and clean up QMSTest trace."
+fastestimator/fastestimator,"Merge pull request #551 from fastestimator/revert-549-1.0dev,,Revert ""finish tutorial: getting started and clean the code for TestQms trace"""
+fastestimator/fastestimator,"Revert ""finish tutorial: getting started and clean the code for TestQms trace"""
+fastestimator/fastestimator,"Merge pull request #549 from geez0219/1.0dev,,finish tutorial: getting started and clean the code for TestQms trace"
+fastestimator/fastestimator,clean the code
+fastestimator/fastestimator,code clean
+fastestimator/fastestimator,cleaned up unwated code
+fastestimator/fastestimator,clean up the code
+fastestimator/fastestimator,clean up code
+fastestimator/fastestimator,now the state is handled in a cleaner way
+fastestimator/fastestimator,clean pdb
+fastestimator/fastestimator,"Merge pull request #468 from vbvg2008/1.0dev,,finished multi-gpu support for tensorflow and other clean up"
+fastestimator/fastestimator,"Merge pull request #467 from TortoiseHam/1.0dev,,cub200 plus some trace cleanup"
+fastestimator/fastestimator,cub200 plus some trace cleanup
+fastestimator/fastestimator,"Merge pull request #453 from TortoiseHam/cleanup/ops,,flexible op inputs / outputs (+1 squashed commit)"
+fastestimator/fastestimator,"Merge pull request #440 from TortoiseHam/1.0dev,,cleaning"
+fastestimator/fastestimator,"fix log_steps, misc cleanup, start of work towards allowing op outputs to chain into later op inputs"
+fastestimator/fastestimator,clean the code and change the inference dataset path to /home/ubuntu/fastestimator_data/BSDS200
+fastestimator/fastestimator,clean the code and change the inference dataset path to /home/ubuntu/fastestimator_data/BSDS200
+fastestimator/fastestimator,"Merge pull request #290 from TortoiseHam/cleanup/interpretationTraces,,Interpretation Traces"
+fastestimator/fastestimator,"gradcam CLI (+4 squashed commits),Squashed commits:,[c2e3647] make layer id optional,[7171bf0] gradcam shows more prediction / raw info,[c7d1d58] cleaning, decode_dictionary,[ed0f354] preliminary gradcam"
+fastestimator/fastestimator,code cleaning
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,"Merge pull request #220 from Vivek305/master,,code cleanup"
+fastestimator/fastestimator,code cleanup and updated code in apphub
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,"Merge pull request #206 from TortoiseHam/cleanup/fix_jupyter,,Image_Classification Notebooks"
+fastestimator/fastestimator,"Merge pull request #204 from TortoiseHam/cleanup/vis_fix,,make axis explicitly optional in the show_image calls"
+fastestimator/fastestimator,"Merge pull request #202 from TortoiseHam/cleanup/fix_apphub,,fix apphub python examples"
+fastestimator/fastestimator,"Merge pull request #201 from TortoiseHam/cleanup/refactor,,move everything"
+fastestimator/fastestimator,"Merge pull request #200 from TortoiseHam/cleanup/saliency,,refactor saliency visualization to match the new structure"
+fastestimator/fastestimator,"Merge pull request #199 from TortoiseHam/cleanup/caricature,,refactor the caricature code to support traces"
+fastestimator/fastestimator,"supress package warning (+5 squashed commits),Squashed commits:,[bc0b0ba] get rid of IDE complaint,[ad93fab] add embeddings to tensorboard, though it's not clear why it would ever be useful to have an embedding of model weights. might remove later,[f2f3986] protect against non-numeric keys,[ec45310] clean up doc strings,[d387dc1] first pass at tensorboard"
+fastestimator/fastestimator,more cleanup
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,clean up _is_floating() method
+fastestimator/fastestimator,"finished code clean up, showcases not fully udated"
+fastestimator/fastestimator,"Merge pull request #125 from TortoiseHam/cleanup/formatting,,Fix cvae formatting"
+fastestimator/fastestimator,clean up the augmentation class methods
+fastestimator/fastestimator,"Merge pull request #121 from TortoiseHam/cleanup/op_input,,use get_input_by_op rather than get_input_by_key"
+fastestimator/fastestimator,code cleanup
+fastestimator/fastestimator,"Merge pull request #113 from TortoiseHam/cleanup/cv2,,CV2 import2"
+fastestimator/fastestimator,"Merge pull request #112 from TortoiseHam/cleanup/cv2,,CV2 Imports"
+fastestimator/fastestimator,"Merge pull request #109 from TortoiseHam/cleanup/underscores,,Cleanup"
+fastestimator/fastestimator,clean up the _method() naming convention and consolidate some methods
+fastestimator/fastestimator,"Showcase cleanup,,Bring back confusion matrix and parameterized warmup to the mixup example, remove unused import"
+fastestimator/fastestimator,"scheduler cleanup,,Clean up scheduler code to remove reference-before-assignment complaints, unused imports, and add a few extra assert guards"
+fastestimator/fastestimator,code cleanup
+fastestimator/fastestimator,"clean up the super() calls (+1 squashed commit),Squashed commits:,[e6187ad] update showcase based on loss op (+2 squashed commits),Squashed commits:,[df6936b] update mixup with loss_op,[f9c63a9] make loss an op to increase API flexibility and enhance adversarial training"
+fastestimator/fastestimator,"Merge pull request #92 from TortoiseHam/cleanup/yapf,,Yapf"
+fastestimator/fastestimator,cleanup
+fastestimator/fastestimator,"move util functions (+1 squashed commit),Squashed commits:,[fe4c97f] fix imports (+1 squashed commit),Squashed commits:,[8a22573] separation of concerns to clean up the CLI code"
+fastestimator/fastestimator,"Merge pull request #84 from chm123/license,,Add dataset license and clean up"
+fastestimator/fastestimator,Add dataset license and clean up
+fastestimator/fastestimator,"better comments (+2 squashed commits),Squashed commits:,[31b83c1] cleanup,[5af62ee] first pass at mixup re-implementation"
+fastestimator/fastestimator,"add caricature into FE bash (+3 squashed commits),Squashed commits:,[e6a10e3] cleaning,[b087313] merge cleanup,[abc32e1] more cleanup (+6 squashed commits),Squashed commits:,[fb147c4] clean up / consolidate code,[da87600] fft space optimization is working,[d528cd3] add image smoothing to generate cleaner reconstructions,[a8dd0b3] fix static augmentation to work within gradient tapes / graph mode (seems there may be a bug with boolean tensors at the moment),[4ff1fda] system is starting to work better - results still don't seem consistent with google publication though. augmentation module doesn't work inside gradient tape due to an issue with boolean member variables. still investigating.,[c6b3656] layer-based image generation. doesn't seem to be working the way it does in the papers though yet. theirs may be neuron or channel specific"
+fastestimator/fastestimator,"remove time axis from training (+1 squashed commit),Squashed commits:,[c64ea68] time dimension (+8 squashed commits),Squashed commits:,[61d4f71] cleanup,[69f3fc4] improve mixup efficiency,[56c3cfb] cleanup,[7387f58] disable recursive search by default for log visualization,[3bf7a77] remove dataset hack,[5efb29b] back to relu,[c4f63f1] rule around 2k example/sec, swish around 1.3k,[475167c] first pass: 95 examples / sec"
+fastestimator/fastestimator,"add better channel support (+6 squashed commits),Squashed commits:,[27a7839] clean up cache loading bar,[5daf930] add units to progress bar,[463308e] silence unhelpful warnings from dependency method,[59e2f46] accelerate cache loading,[4fd90f3] use model input layer to set input resize params,[1c3a85b] fix --extension functionality"
+fastestimator/fastestimator,"allow saliency vis to take a folder of inputs instead of only a list of files (+3 squashed commits),Squashed commits:,[e00494f] display layer names,[a306357] update log parser to use the new pathloader,[7b1d1da] cache layer idx correctly (+16 squashed commits),Squashed commits:,[1fc2298] fix import,[7d38e6b] separate loader class in preparation for multi-process loading,[bb7a6ef] fix an issue when batch size > num samples,[ff7ac8b] code smell cleanup,[5dadf62] switch to os.walk() for better input flexibility,[fd14c92] further argument cleanup,[01aeb10] extra help message,[a7e9bc9] pass-through umap settings,[250f099] add umap functionality to FE script,[4cafca8] legend and cache restarts,[cfb5268] cache the batch results,[7904c88] cleaned-up graph,[9e65d34] put layers in subplots,[257f0d4] generates maps, still heavily RAM bound,[1aad710] folder-based parsing,[c88fef2] start of umap efforts"
+fastestimator/fastestimator,"Merge pull request #41 from Vivek305/master,,cleanup stage added"
+fastestimator/fastestimator,cleanup stage added
+collective-action/tech,"Create 0075.md (#103),,* Create 0075.md
+,
+,* Rename 0075.md to new2.md
+,
+,* Update new2.md
+,
+,minor url cleanup
+,
+,* Update new2.md"
+collective-action/tech,Update cleanup_and_update.yml
+collective-action/tech,clean up
+collective-action/tech,clean up
+collective-action/tech,clean up
+collective-action/tech,clean up
+jsignell/heat_and_trees,Some more clean up
+plcrodrigues/Workshop-MOABB-BCI-Graz-2019,"Updated the README.md separating the tasks for each one; Did the Part2.1 notebook (the core is done, need to make it cleaner and more pedagogical); Started Part2.2"
+greydanus/hamiltonian-nn,Some code cleanup and formatting fixes
+quadrismegistus/literarytextmining,installation cleaning
+quadrismegistus/literarytextmining,installation cleaning
+quadrismegistus/literarytextmining,installation cleaning
+quadrismegistus/literarytextmining,cleaning syllabus
+modichirag/flowpm,"Merge pull request #11 from modichirag/u/EiffL/cleanup,,Removes useless module"
+uclaacm/learn.py-s19,"Merge pull request #4 from uclaacm/session3-cleanup,,Session3 cleanup"
+Hack4Eugene/SpeedUpAmerica,Formatting and cleanup for presentations
+Hack4Eugene/SpeedUpAmerica,Added stats_caches cleanup to Lane County narrowing
+Hack4Eugene/SpeedUpAmerica,cleaning up
+Hack4Eugene/SpeedUpAmerica,Added file cleanup
+Hack4Eugene/SpeedUpAmerica,"Merge pull request #1 from ryanrolds/docker,,Setup Docker and did some cleaning up"
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Remove extraneous parts from sampling notebook
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Add images and more for web scraping notebook
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Clean up HTML intro notebook
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Add HTML & CSS tags for code snipets
+MrGeislinger/flatiron-school-data-science-curriculum-resources,feat: Pandas cleaning overview
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Minor fixes to text processing NLP notebook
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Clear some outputs from NN notebooks
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Remove redundant info in descission tree notebooks
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Table of Contents for time series discussion
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Update evaluation metrics image & F-beta description
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Table of Contents for NoSQL discussion
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Remove repeated web scraping from html intro
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Formatting for big data intro
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Rename Big Data files (convention)
+MrGeislinger/flatiron-school-data-science-curriculum-resources,clean: Statitistical test notebooks w/ table of contents
+MrGeislinger/flatiron-school-data-science-curriculum-resources,"Text processing steps (clean, normalize, tokenize, stopwords)"
+qiaoxu123/Self-Driving-Cars,clean the project
+ChandraLingam/AmazonSageMakerCourse,'clean'
+ChandraLingam/AmazonSageMakerCourse,mushroom cleanup
+ChandraLingam/AmazonSageMakerCourse,cleanup and exercise
+ChandraLingam/AmazonSageMakerCourse,iris demo cleanup
+mogwai/fastai_audio,cleaning up some comments
+mogwai/fastai_audio,"After first session of multichannel,,Adding some audio files to test dual channels,,Fixing sig and sr issue after removing _sig and _sr,,Fixed Rendering of AudioList with multichannel,,change resample to handle multichannel,,fixing a few more bugs caused by multichannel,,open method overhaul,,Adding nsamples and nchannels properties,,Adding item. to sr,,like this?,,fixed some reference errors,,Notebook cleanup,,Tried to start a notebook, but ended up just having fun,,LIke this,,Multi-channel Notebook additions,,Fix hearing bug,,use s.shape[-1] instead of len(s),,Remove Silence Transformer Multichannel,,resample_to can be 8000,,Fixing Segment Items, adding a c property,,Adding tests to MultiChannel,,Getting rid of calc_channels replaced by nchannels,,Changed delta so it stacks c1,c1',c1'',c2,c2',c2'' etc,,Fixed Learner Again,,Fixed some of the broken tests,,Get rid of kevin-generated multichannel files,,Multi-channel notebook runthrough,,All errors were fixed. Warnings are all from other libraries.,,reducing size by clearning all outputs,,Adding nsamples and nchannels properties,,like this?,,fixed some reference errors,,Notebook cleanup,,Tried to start a notebook, but ended up just having fun,,Multi-channel Notebook additions,,Fix hearing bug,,use s.shape[-1] instead of len(s),,Remove Silence Transformer Multichannel,,resample_to can be 8000,,Fixing Segment Items, adding a c property,,Adding tests to MultiChannel,,Changed delta so it stacks c1,c1',c1'',c2,c2',c2'' etc,,Fixed Learner Again,,All errors were fixed. Warnings are all from other libraries.,,adding tests for downmix, nchannels, and nsamples,,differentiating mixed channel and same channel folders,,Added checks to ensure number of channels was consistent,,Updated to discuss mixed channel folders,,Reorganized,,broken nchannels consistency check,,What I have,,I'm beating you to it,,Adding Hiromi to the Active Contributors List"
+mogwai/fastai_audio,"Merge pull request #33 from mogwai/cleanup,,Cleanup"
+mogwai/fastai_audio,"Merge pull request #10 from mogwai/cleanup,,Cleanup"
+mogwai/fastai_audio,"Finish Features nb, clean up transform manager"
+mogwai/fastai_audio,refactor clean debug preprocessors
+mogwai/fastai_audio,"Merge pull request #8 from marii-moe/dependencies-clean-up,,removing cyclical dependency betwen Datablock and DataAugmentation"
+mogwai/fastai_audio,Optimised most transforms; cleaned up API; removed unneccesary helper functions; fixed REPRESENTATION; added file type extension check; probably some other stuff
+mogwai/fastai_audio,clean up AWD-lstm
+mogwai/fastai_audio,clean up audiocommon nb
+mogwai/fastai_audio,clean up DataAug notebook
+sutt/fastai-tmp,git clean 2: mop up misc edits
+sutt/fastai-tmp,git clean 1
+josecyc/neurosleeve,cleaned model file
+josecyc/neurosleeve,adding cleaned data
+josecyc/neurosleeve,Adding clean samples
+aria-tools/ARIA-tools-docs,"Update README.md,,cleaning up the docs page and consolidating"
+aria-tools/ARIA-tools-docs,"Full draft of extractProduct notebook and supporting docs (#3),,* Update 1 to extractProduct notebook
+,* Typos
+,* Ignore extractProduct/support_docs (temp)
+,* Update to extractProduct; intro and outline
+,* add support docs for extractProduct
+,* More intro info; cropping examples
+,* Updates; First 2 methods
+,* Completed all sections of draft
+,* Change directory structure, clean up files
+,* Store outputs in 'results'
+,
+,An additional fix is needed for git-ignore"
+sustainlab-group/africa_poverty,Add clean DHS CSV
+sustainlab-group/africa_poverty,"LSMS index-of-delta max activating maps,,and other code cleanup"
+goru001/nlp-for-tamil,files cleanup
+loretoparisi/bert-movie-reviews-sentiment-classifier,cleaned up notebook
+AlbertSuarez/donework,Improved clean dataset
+AlbertSuarez/donework,"deleting more bullshit, finally clean af"
+samaritanhu/Introduction-to-Algorithms,"Merge pull request #15 from qcmiao1998/clean,,Clean up useless eclipse project files."
+divyanshj16/SPADE,Adds cleaned up notebooks
+ramalho/pyob,cleaning up notebooks
+ramalho/pyob,cleaning up notebooks and examples
+ritwikraha/Introduction-to-Image-Processing,just cleaning up
+cschin/Peregrine,clean up un-used variables and properly initialize a couple variables
+cschin/Peregrine,clean up unused variables
+cschin/Peregrine,remove accumulate_mc in clean up
+google/neural-tangents,"Project import generated by Copybara.,,GitHub commits, most recent first:,  - d8c75da807f697503c49262ab7dae514f565d232 update version and changelog for pypi by Matthew Johnson <mattjj@google.com>,  - 2dc81fb40cac0c7d9e8b65d9f5467b7583deeeb3 Make pytest run over JAX tests warning clean, and error o... by Peter Hawkins <phawkins@google.com>,,PiperOrigin-RevId: 306221598"
+google/neural-tangents,"Changed `Kernel` object to use dataclasses compatible with JAX transformations.,,Uses code from Flax to register dataclasses as JAX PyTrees along with static vs dynamic annotation.,,This change allowed us to clean up batching code.,,PiperOrigin-RevId: 303866432"
+google/neural-tangents,"Turn Monte-Carlo sampler into a generator yielding results at specified steps.,Now calling `ker_fun(x1, x2, get)` (produced by `get_ker_fun_monte_carlo`) returns either a Kernel namedtuple or a generator of them, depending on whether `n_samples` is an integer or an iterable.,,* The `get_namedtuple` decorator now applies to both functions and generators.,,* I've increased the `N_SAMPLES` in `stax_test` since the key generation is now different and a few tests seem to have been flaky.,,* Some other minor cleanup.,,PiperOrigin-RevId: 270740636"
+patternedscience/time-series-tf-serving,Small cleanup to the training notebook
+ferchault/APDFT,cleaned up import
+ferchault/APDFT,clean up
+ferchault/APDFT,calculation of atomic energies with minimum image convention implemented and code cleaned up #140 #128
+ferchault/APDFT,Better cleanup
+ferchault/APDFT,"Code cleanup, #34"
+ferchault/APDFT,Better MRCC cleanup
+digital-science/dimensions-api-lab,clean up
+digital-science/dimensions-api-lab,cleanup
+ZezhouCheng/GP-DIP,clean up codes
+ZezhouCheng/GP-DIP,clean up the codes
+ZezhouCheng/GP-DIP,clean up the repo
+czbiohub/cerebra,cleaning out py_notebooks dir
+czbiohub/cerebra,cleaned up gl data folder
+czbiohub/cerebra,cleaned coverage code up into its own method
+czbiohub/cerebra,cleaning up
+czbiohub/cerebra,cleaned up imports
+czbiohub/cerebra,cleaned up
+mariel-pettee/choreography,More cleanup
+mariel-pettee/choreography,Added Chase's notebook and cleaned up main.py further
+NVIDIA-AI-IOT/jetracer,cleanup
+numenta/nupic.research,"ResNet cleanup, don't hardcode num_classes"
+numenta/nupic.research,Add early stopping and a bit cleaner
+numenta/nupic.research,"Merge pull request #117 from mrcslws/stochastic-connections,,Stochastic connections: Deterministic mode, code cleanup"
+numenta/nupic.research,"Deterministic mode, code cleanup"
+numenta/nupic.research,"Merge pull request #72 from mvacaporale/RES-985,,Code cleanup + small improvements"
+numenta/nupic.research,cleaning up code on dsnn models
+numenta/nupic.research,cleanup
+numenta/nupic.research,Formatting cleanup
+numenta/nupic.research,Slight cleanup
+Tebs-Lab/intro-to-deep-learning,"more readme improvements, cleaned up transfer learning, added image pre-processing/augmentation notebook"
+zake7749/Fill-the-GAP,[UC] Add a uncleaned version for generating predicions.
+markproy/sagemaker-workshop,cleaned up lab 4
+markproy/sagemaker-workshop,cleaned up lab 3
+markproy/sagemaker-workshop,cleanup lab 2
+markproy/sagemaker-workshop,clean up lab 1
+markproy/sagemaker-workshop,clean up
+markproy/sagemaker-workshop,clean up
+markproy/sagemaker-workshop,additional cleanup
+markproy/sagemaker-workshop,additional cleanup
+markproy/sagemaker-workshop,additional cleanup
+markproy/sagemaker-workshop,cleaned up lab 3 and lab 4
+markproy/sagemaker-workshop,cleaned up lab2 notebook
+markproy/sagemaker-workshop,cleaned up training script
+markproy/sagemaker-workshop,cleaned up lab 1
+markproy/sagemaker-workshop,add file cleanup
+markproy/sagemaker-workshop,clean up documentation
+markproy/sagemaker-workshop,cleaned up notebooks
+AndreWeiner/machine-learning-applied-to-cfd,Rename shape approximation notebook and clean up.
+juandes/infinity-war-spacy,added raw script and clean data script
+pytroll/tutorial-satpy-half-day,"Fix typos and clean up language in introduction,,Includes switching gdalinfo usage to use wildcards for filenames"
+aobo-y/hair-dye,clean unused loss codes
+bryanlimy/tf2-transformer-chatbot,code cleaning add readme
+mhpi/hydroDL,clean developing code
+huan/tensorflow-handbook-tpu,code clean
+huan/tensorflow-handbook-tpu,clean layout
+huan/tensorflow-handbook-tpu,doc clean
+bempp/bempp-cl,Fixed and cleaned up spaces and unit tests.
+lessw2020/mrnet-fastai,minor cleanup
+GuiZamorano/Instagram_Like_Predictor,"replaced nulls,,replaced nulls with ' ', need to clean text"
+Dewberry/pfra-hydromet,"Add intersect_temporal_areas function, NOAA_Temporal_Areas_US.geojson file, clean run of PrecipTable.ipynb"
+DataForScience/DeepLearning,clean up notebook structure
+DataForScience/DeepLearning,slide typo cleanup
+DataForScience/DeepLearning,clean up simple network notebook
+ultimatist/WaveNet,cleanup
+ultimatist/WaveNet,erase and clean cells
+ultimatist/WaveNet,clean preWN
+johli/aparent,Updated/cleaned analysis scripts.
+quantumiracle/SOTA-RL-Algorithms,clean
+felixchenfy/Detect-Hand-Grasping-Object,cleaned code of openpose and siammask
+teddykoker/blog,cleaned up sidebar
+teddykoker/blog,clean code
+GoogleCloudPlatform/ai-platform-samples,"Merge pull request #25 from GoogleCloudPlatform/shahins-cleanup,,Shahin's cleanup"
+GoogleCloudPlatform/ai-platform-samples,Merge branch 'master' into shahins-cleanup
+GoogleCloudPlatform/ai-platform-samples,"Merge pull request #24 from GoogleCloudPlatform/gogasca_cleanup,,Add sklearn test case"
+GoogleCloudPlatform/ai-platform-samples,"Merge pull request #23 from GoogleCloudPlatform/gogasca_cleanup,,Cleanup README.md"
+GoogleCloudPlatform/ai-platform-samples,"Merge pull request #22 from GoogleCloudPlatform/gogasca_cleanup,,Repo cleanup"
+GoogleCloudPlatform/ai-platform-samples,Some code cleanup.
+GoogleCloudPlatform/ai-platform-samples,More refactoring and cleanup
+knathanieltucker/pandas-tutorial,really cleaned up
+Tiiiger/bert_score,code cleanup
+Proteusiq/advance_scraping,cleaning
+aws-samples/linux-container-primitives-presentation-notebooks,Cleaned output from notebooks and added some additional warnings in the clean up section of labs 2 and 3.
+zcaceres/spec_augment,clean up notebooks
+DataKind-DC/audubon-cbc,Made updates to cleaning file
+DataKind-DC/audubon-cbc,"Wrong File Linked,,The files named in the creation of bird_count_cleaned_may_29_2019.csv is wrong, it was not audobon eda, audobon work created the file bird_count_cleaned_may_29_2019.csv"
+DataKind-DC/audubon-cbc,"Merge pull request #16 from DataKind-DC/cleancsv,,create attic folder for old files"
+DataKind-DC/audubon-cbc,"Merge pull request #8 from DataKind-DC/cleancsv,,remove impossible values and add csv and images"
+DataKind-DC/audubon-cbc,clean up files and file names
+lightbend/kubeflow-recommender,Small cleanup
+lumpsuckers/narre,cleans up code
+longwind48/convo-miner,code cleaning
+longwind48/convo-miner,cleanup repo
+longwind48/convo-miner,some cleanup
+longwind48/convo-miner,"file structure change, remove footer, code cleaning."
+dl4sits/BreizhCrops,cleanup
+dl4sits/BreizhCrops,cleanup
+dl4sits/BreizhCrops,cleanup #5
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,cleaning
+fbeilstein/machine_learning,more cleaning
+fbeilstein/machine_learning,cleaning goes on
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,cleanup
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,clean up
+fbeilstein/machine_learning,cleaning
+fbeilstein/machine_learning,clean
+fbeilstein/machine_learning,cleaning
+fbeilstein/machine_learning,cleaning
+fbeilstein/machine_learning,clean up
+leomiolane/linalg-for-ds,clean
+yt4766269/TextureGeneration,clean code
+chekos/analyzing-census-data,clean notebooks directory
+scikit-mobility/scikit-mobility,Final cleaning and tutorial
+scikit-mobility/scikit-mobility,Final cleaning and tutorial
+esowc/ml_flood,clean files
+esowc/ml_flood,cleanup
+esowc/ml_flood,cleaning
+esowc/ml_flood,cleaning
+esowc/ml_flood,cleaning
+scikit-hep/mplhep,"Merge pull request #120 from scikit-hep/cleanup,,chore: add git script to clean up old branches"
+scikit-hep/mplhep,chore: add git script to clean up old branches
+scikit-hep/mplhep,Automatically clean mpl cache
+ibm-aur-nlp/PubLayNet,"Merge pull request #10 from kmh4321/master,,cleanup and updated notebook with links"
+ibm-aur-nlp/PubLayNet,cleanup and updated notebook with links
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,more cleanup and updates
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,cleaned up Gauss_Markov
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,added chapter/statistics/kernel_regression.py and other cleanup
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,notebook cleanup
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,cleanup for probability chapter
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,more updates and cleanup
+unpingco/Python-for-Probability-Statistics-and-Machine-Learning-2E,minor cleanup
+microsoft/MLOps,clean up redundant files
+DataForScience/NLP,clean up notebooks
+DataForScience/NLP,notebook cleanup
+DataForScience/NLP,notebook cleanup
+shaystrong/sagely,cleanup
+burke86/astro_rcnn,cleanup readme
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup and add pip requirements
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,various cleanups
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup mask rcnn
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,"cleanup, add train notebook"
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,cleanup
+burke86/astro_rcnn,phosim cleanup
+nguyenducphuong1978/TextSummarizer,Update: clean up code and add input pipeline
+whiteblock/p2p-tests,let linus clean it up
+whiteblock/p2p-tests,clean up time
+whiteblock/p2p-tests,clean up time
+whiteblock/p2p-tests,modularize and clean up code
+whiteblock/p2p-tests,clean
+whiteblock/p2p-tests,clean
+whiteblock/p2p-tests,clean up and correct packages
+parrt/stratx,"clean up comments, code."
+parrt/stratx,"clean up comments, code."
+parrt/stratx,clean up imports
+parrt/stratx,more clean up. add type info
+parrt/stratx,clean up
+re-search/DocProduct,[clean] Remove reddit data
+re-search/DocProduct,[clean] Remove old notebooks
+re-search/DocProduct,"[feature&clean] Add predictor text2emb,,- Remove eval code in training script"
+GUDHI/TDA-tutorial,little clean-up
+cernops/higgs-demo,Add missing params for parallel cleanup
+cernops/higgs-demo,Add parallel cleanup
+cernops/higgs-demo,Add cleanup and watch examples to readme
+cernops/higgs-demo,"Add limit and cleanup command,,Implement the cleanup command. Add limit param for the batch size on deletion."
+cernops/higgs-demo,"Add cleanup and watch commands,,Rename submit to cmd.py to hold all cmds"
+kaiwaehner/hivemq-mqtt-tensorflow-kafka-realtime-iot-machine-learning-training-inference,"Merge pull request #33 from sbaier1/helm3-cleanup,,helm3 improvements to infrastructure and hivemq"
+kaiwaehner/hivemq-mqtt-tensorflow-kafka-realtime-iot-machine-learning-training-inference,"Merge pull request #9 from ora0600/cleanCPOperator01,,Clean cp operator script for deletion tasks"
+kaiwaehner/hivemq-mqtt-tensorflow-kafka-realtime-iot-machine-learning-training-inference,"update infrastructure: move monitoring to its own namespace, add destroy script which will clean up the k8s cluster before deletion, fix some minor errors, some refactoring"
+graph-genome/graph_summarization,#19 Added more class documentation comments and cleaned up code.
+graph-genome/graph_summarization,#19 cleaning up test code and making a second execution to avoid Node side effects in testing.
+lambdaclass/options_backtester,"Merge pull request #74 from lambdaclass/options-test,,options test branch cleaned up"
+lambdaclass/options_backtester,test branch cleaned up
+lambdaclass/options_backtester,Data cleanup v2. Removes ~%12 of the contracts
+lambdaclass/options_backtester,Fixed monthly data iterator to return correct dates and moved data cleanup notebook to 'backtester/demos/'
+lambdaclass/options_backtester,Added notebooks for data cleanup and demo
+mayabenowitz/Hedgecraft,"cleaned up code, added growth risk"
+ichisadashioko/kanji-recognition,:fire: clean up files
+sisl/GaussianFilters.jl,"Merge pull request #7 from sisl/arec,,cleaning up gm-phd code, testing step_prune, moving tests and example…"
+sisl/GaussianFilters.jl,"cleaning up gm-phd code, testing step_prune, moving tests and examples over to notebooks, properly setting up package"
+sisl/GaussianFilters.jl,cleanup
+cran2367/lstm_autoencoder_classifier,Model cleaned
+abhisuri97/meme-analysis,clean up readme
+dsgiitr/d2l-pytorch,cleanups and link fix
+dsgiitr/d2l-pytorch,cleanups
+dsgiitr/d2l-pytorch,fix broken links & cleanups
+dsgiitr/d2l-pytorch,cleanups
+Aithu-Snehith/End-to-End-Learning-of-Communications-Systems-Without-a-Channel-Model,cleaned up
+Aithu-Snehith/End-to-End-Learning-of-Communications-Systems-Without-a-Channel-Model,cleaned up
+Aithu-Snehith/End-to-End-Learning-of-Communications-Systems-Without-a-Channel-Model,cleaned up
+Aithu-Snehith/End-to-End-Learning-of-Communications-Systems-Without-a-Channel-Model,cleaned up
+muellerzr/fastai-Experiments-and-tips,cleaning
+google/jax-md,Minor cleaning.
+srihari-humbarwadi/YOLOv1-TensorFlow2.0,clean up
+srihari-humbarwadi/YOLOv1-TensorFlow2.0,clean up
+pyladies/global-organizing,Formatting cleanup
+broadinstitute/long-read-pipelines,cleaning up canu/quast runners (#120)
+broadinstitute/long-read-pipelines,trivial cleanup (#49)
+broadinstitute/long-read-pipelines,Little bit of cleanup (#44)
+broadinstitute/long-read-pipelines,some cleanup: [A-Za-z]=[A-Za-z] to [A-Za-z] = [A-Za-z]
+broadinstitute/long-read-pipelines,cleaning up canu/quast runners (#120)
+broadinstitute/long-read-pipelines,trivial cleanup (#49)
+broadinstitute/long-read-pipelines,Little bit of cleanup (#44)
+broadinstitute/long-read-pipelines,some cleanup: [A-Za-z]=[A-Za-z] to [A-Za-z] = [A-Za-z]
+fastai/course-nlp,updating file names to clean up github
+bamsumit/slayerPytorch,Major cleanup: Removed CPU version of SLAYER
+bamsumit/slayerPytorch,Minor cleanups to nmnist example
+bamsumit/slayerPytorch,"Add functionality for custom number of channels in calculate_srm_kernel, minor cleanups"
+bamsumit/slayerPytorch,Minor cleanups

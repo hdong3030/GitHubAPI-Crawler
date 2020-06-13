@@ -410,7 +410,7 @@ class GitHubAPI(object):
 
         for commit in self.request(url, paginate=True, state='all'):
             yield parse_commit(commit)
-
+    
     def issue_comments(self, repo, issue_id):
         """ Return comments on an issue or a pull request
         Note that for pull requests this method will return only general
@@ -684,6 +684,9 @@ class GitHubAPI(object):
                 'changes': file['changes']
             }
 
+    def parse_commits(commit):
+        parse_commit(commit)
+        
     def repoLastPushDate(self, repoUrl):
         url = "repos/%s" % (repoUrl)
         repoInfo = self.request(url)
@@ -818,7 +821,7 @@ def canonical_url(project_url):
 @staticmethod
 def activity(repo_name):
     # type: (str) -> dict
-    """Unofficial method to get top 100 contributors commits by week"""
+    """Unofficial method to get top 100 contributors (commits) by week"""
     url = "https://github.com/%s/graphs/contributors" % repo_name
     headers = {
         'X-Requested-With': 'XMLHttpRequest',
