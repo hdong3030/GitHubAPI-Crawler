@@ -712,7 +712,7 @@ class GitHubAPI(object):
 
 
     def parse_repo(self, repos):
-        with open('notebooks.csv', mode='a') as csv_file:
+        with open('notebooks_10k.csv', mode='a') as csv_file:
             fieldnames = ['id', 'full name', 'created at', 'size', 'forks count', 'authors']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         
@@ -751,6 +751,33 @@ class GitHubAPI(object):
         self.parse_repo(repos)
         return repos
 
+    def get_commit(self, repo):
+        url = 'repos/' +repo+ "/" + 'commits'
+        #print(url)
+
+        commits = self.request(url, paginate=False)
+        
+        return commits
+
+    def get_file(self, repo, sha):
+        url = 'repos/' +repo+ "/git/trees/" + sha
+
+        all_files = self.request(url, paginate=False)
+
+        return all_files
+    
+    def file_commits(self, repo, single_file):
+        url = 'repos/'+repo+ "/commits?path=" + single_file
+        try:
+            file_commit = self.request(url, paginate=False)
+        except:
+            file_commit = []
+            pass
+        
+        return file_commit
+        
+
+        
 
 def review_comments(self, repo, pr_id):
     """ Pull request comments attached to some code

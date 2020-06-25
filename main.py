@@ -1,28 +1,32 @@
 from github_api import GitHubAPI
 from datetime import date
+import datetime
 from read_repos import get_all_repos
-from get_commits import get_commits
+from get_commits import get_commits, parse_file_commits
 import csv
 
 
 if __name__ == "__main__":
     api = GitHubAPI()
-    # # query github api with URL
-    #     # res = api.request("repos/jquery/jquery/pulls/4406/commits")
-    #     #
-    # query issue/pr timeline
-    # events = api.get_issue_pr_timeline("jquery/jquery", 4406)
-    #query repo
-    #res = api.get_repo("Jupyter%20Notebook","2008-01-01","2009-01-01")
+
+    #get all jupyter notebooks from start date to end date, increment date
+
+    print('Getting repos...')
+    get_all_repos(datetime.datetime(2019, 2, 3), datetime.datetime(2019, 6, 1), 6, True)
+    print('done!')
 
 
-    # print('Getting repos...')
-    # get_all_repos(date(2019, 1, 1), date.today(), 0.5)
+    #get all notebooks in csv file by keyword (passed into get_commits function)
+    
+    # print('Getting Commits...')
+    # get_commits("ready")
     # print('done!')
 
-    print('Getting Commits...')
-    get_commits("ready")
-    print('done!')
+
+    #get commits with a filter
+    # print('Getting Commits...')
+    # parse_file_commits()
+    # print('done!')
 
 
 
