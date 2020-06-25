@@ -17,6 +17,10 @@ if __name__ == "__main__":
     # get_all_repos(datetime.datetime(2019, 2, 3), datetime.datetime(2019, 6, 1), 6, True)
     # print('done!')
 
+    # print('Getting Commits...')
+    # api.repo_commits("hdong3030/Data-Analysis")
+    # print('done!')
+
 
     #get all notebooks in csv file by keyword (passed into get_commits function)
     
