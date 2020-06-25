@@ -24,5 +24,9 @@ if __name__ == "__main__":
     get_all_repos(date(2019, 1, 1), date.today(), 0.5)
     print('done!')
 
+    # print('Getting Commits...')
+    # api.repo_commits("hdong3030/Data-Analysis")
+    # print('done!')
+
 
 
