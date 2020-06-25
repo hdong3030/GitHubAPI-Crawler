@@ -410,7 +410,7 @@ class GitHubAPI(object):
 
         for commit in self.request(url, paginate=True, state='all'):
             yield parse_commit(commit)
-
+    
     def issue_comments(self, repo, issue_id):
         """ Return comments on an issue or a pull request
         Note that for pull requests this method will return only general
@@ -684,6 +684,9 @@ class GitHubAPI(object):
                 'changes': file['changes']
             }
 
+    def parse_commits(commit):
+        parse_commit(commit)
+        
     def repoLastPushDate(self, repoUrl):
         url = "repos/%s" % (repoUrl)
         repoInfo = self.request(url)
@@ -709,7 +712,7 @@ class GitHubAPI(object):
 
 
     def parse_repo(self, repos):
-        with open('notebooks.csv', mode='a') as csv_file:
+        with open('notebooks_10k.csv', mode='a') as csv_file:
             fieldnames = ['id', 'full name', 'created at', 'size', 'forks count', 'authors']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         
@@ -748,6 +751,33 @@ class GitHubAPI(object):
         self.parse_repo(repos)
         return repos
 
+    def get_commit(self, repo):
+        url = 'repos/' +repo+ "/" + 'commits'
+        #print(url)
+
+        commits = self.request(url, paginate=False)
+        
+        return commits
+
+    def get_file(self, repo, sha):
+        url = 'repos/' +repo+ "/git/trees/" + sha
+
+        all_files = self.request(url, paginate=False)
+
+        return all_files
+    
+    def file_commits(self, repo, single_file):
+        url = 'repos/'+repo+ "/commits?path=" + single_file
+        try:
+            file_commit = self.request(url, paginate=False)
+        except:
+            file_commit = []
+            pass
+        
+        return file_commit
+        
+
+        
 
 def review_comments(self, repo, pr_id):
     """ Pull request comments attached to some code
@@ -818,7 +848,7 @@ def canonical_url(project_url):
 @staticmethod
 def activity(repo_name):
     # type: (str) -> dict
-    """Unofficial method to get top 100 contributors commits by week"""
+    """Unofficial method to get top 100 contributors (commits) by week"""
     url = "https://github.com/%s/graphs/contributors" % repo_name
     headers = {
         'X-Requested-With': 'XMLHttpRequest',
