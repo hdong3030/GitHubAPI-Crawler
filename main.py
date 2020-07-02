@@ -4,9 +4,7 @@ import datetime
 from read_repos import get_all_repos
 from get_commits import get_commits, parse_file_commits
 import csv
-from github import Github
-import pygit2
-
+from get_production_nb import get_production_nb
 
 if __name__ == "__main__":
     api = GitHubAPI()
@@ -34,8 +32,7 @@ if __name__ == "__main__":
     # parse_file_commits()
     # print('done!')
 
-
-repoClone = pygit2.clone_repository(github.com/hdong3030/GitHubAPI-Crawler, '.')
+    get_production_nb()
     
 
 

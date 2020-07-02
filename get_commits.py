@@ -30,11 +30,9 @@ def get_commits(keyword):
                                 'message': message
                             })
 
-
-def get_files(repo):
+def get_sha_list(repo):
     api = GitHubAPI()
-
-    file_list = []
+    sha_list = []
 
     commits = api.get_commit(repo)
     recent = commits[0]
@@ -42,17 +40,31 @@ def get_files(repo):
 
     tree = comm['tree']
     sha = tree['sha']
+    sha_list.append(sha)
 
     files = api.get_file(repo, sha)
-    
     arr = files['tree']
-        
-    for i in range(len(arr)):
-        tree = arr[i]
-        repo_file = tree['path']
-        file_list.append(repo_file)
+
+    for elem in arr:
+        if elem['type'] == "tree":
+            sha_list.append(elem['sha'])
+        else:
+            continue
+    return sha_list
+
+def get_files(repo):
+    api = GitHubAPI()
+    sha_list = get_sha_list(repo)
+    file_list = []
+
+    for sha in sha_list:
+        files = api.get_file(repo, sha)
+        arr = files['tree']
+        for elem in arr:
+            file_list.append(elem['path'])
 
     return file_list
+
 
 def parse_file_commits():
     api = GitHubAPI()
