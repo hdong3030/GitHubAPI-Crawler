@@ -4,7 +4,7 @@ import datetime
 from read_repos import get_all_repos
 from get_commits import get_commits, parse_file_commits
 import csv
-from get_production_nb import get_production_nb
+from get_production_nb import get_production_nb_byEXT, get_production_nb_byFEAT
 
 if __name__ == "__main__":
     api = GitHubAPI()
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # parse_file_commits()
     # print('done!')
 
-    get_production_nb()
+    get_production_nb_byFEAT()
     
 
 

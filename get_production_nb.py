@@ -2,8 +2,11 @@ from github_api import GitHubAPI
 import csv
 import json
 from get_commits import get_commits, get_files
+import subprocess
+import os
+import csv
 
-def get_production_nb():
+def get_production_nb_byEXT():
     api = GitHubAPI()
 
     with open('notebooks_alot.csv', newline='') as csvfile:
@@ -27,6 +30,7 @@ def get_production_nb():
                     if "dvc" in elem:
                         dvc = True
 
+                ##change me!
                 if dvc:
                     writer.writerow({
                         'repo': repo
@@ -34,3 +38,8 @@ def get_production_nb():
                     print("this repository had a dvc file\n")
                     #remove this break for continuous cycle
                     break
+
+def get_production_nb_byFEAT():
+
+    os.chdir("/home/feature/helen/GitHubAPI-Crawler/data/notebooks/Drug_Review_NLP")
+    subprocess.run(["nbgrep", "import", "01_Drug_Review_Dataset_Exploration.ipynb"])
