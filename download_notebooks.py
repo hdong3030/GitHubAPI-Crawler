@@ -15,25 +15,32 @@ with open('notebooks_10k.csv', newline='') as csvfile:
         folder = repo.replace("/", "~")
 
         #destination dir
-        os.chdir("/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA")
+        os.chdir("/DATA/jupyter_data/GITHUB_REPO_DATA")
 
         #clone repo
         subprocess.run(["git", "clone", "https://github.com/" + repo])
 
         #make folder
-        subprocess.run(["mkdir", folder + "_nb"])
+        # subprocess.run(["mkdir", folder + "_nb"])
+
+        subprocess.run(["mkdir", folder])
 
         #back to repo folder
-        os.chdir("/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + repo_name)
+        #os.chdir("/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + repo_name)
+        
+        subprocess.run(["mv", repo_name, folder])
 
         #check for .ipynb extension
-        p = subprocess.Popen('git ls-tree -r master --name-only', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        for line in p.stdout.readlines():
-            line = str(line)
-            if '.ipynb' in line:
-                line = line.split("'")[1]
-                line = line.split("\\")[0]
-                os.chdir("/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + folder + "_nb")
-                subprocess.run(["wget", "https://raw.githubusercontent.com/" + repo + "/" + "master/" + line])
+        # p = subprocess.Popen('git ls-tree -r master --name-only', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        # for line in p.stdout.readlines():
+        #     line = str(line)
+        #     if '.ipynb' in line:
+        #         line = line.split("'")[1]
+        #         line = line.split("\\")[0]
+        #         os.chdir("/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + folder + "_nb")
+        #         subprocess.run(["wget", "https://raw.githubusercontent.com/" + repo + "/" + "master/" + line])
         
-        subprocess.run(["rm", "-rf", "/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + repo_name])
+        #remove original cloned repo
+        # subprocess.run(["rm", "-rf", "/DATA/jupyter_data/GITHUB_NOTEBOOKS_DATA/" + repo_name])
+
+        # subprocess.run(["rm", "-rf", "/DATA/jupyter_data/GITHUB_REPO_DATA/" + repo_name])

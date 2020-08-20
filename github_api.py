@@ -754,8 +754,10 @@ class GitHubAPI(object):
     def get_commit(self, repo):
         url = 'repos/' +repo+ "/" + 'commits'
         #print(url)
-
-        commits = self.request(url, paginate=False)
+        try:
+            commits = self.request(url, paginate=False)
+        except:
+            pass
         
         return commits
 
@@ -775,6 +777,15 @@ class GitHubAPI(object):
             pass
         
         return file_commit
+    
+    def repo_details(self, repo):
+        url = 'repos/' + repo
+        try:
+            res = self.request(url, paginate=False)
+        except:
+            pass
+        
+        return res
         
 
         

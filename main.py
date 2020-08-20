@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # parse_file_commits()
     # print('done!')
 
-    get_production_nb_byFEAT()
+    get_production_nb_byEXT()
     
 
 
